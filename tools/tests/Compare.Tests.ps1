@@ -75,7 +75,9 @@ Assert-Equal $false ([bool]($qn | Where-Object Name -eq 'rifle')) 'quoted names 
 
 # M9: 숫자는 로캘과 무관하게 점으로 쓴다
 $deWork = New-TestDir; $deData = New-TestDir; $pipeline = (Resolve-Path "$PSScriptRoot/../Invoke-Pipeline.ps1").Path
-pwsh -NoProfile -Command "[cultureinfo]::CurrentCulture = 'de-DE'; & '$pipeline' -SourceRoot '$van' -WorkDir '$deWork' -DataDir '$deData'" *> $null
+# 경로에 작은따옴표가 있을 수 있다(저장소 E:\Toybox's\...). -Command 문자열 안에서는 ''로 쓴다
+$sq = { param($p) "'" + $p.Replace("'", "''") + "'" }
+pwsh -NoProfile -Command "[cultureinfo]::CurrentCulture = 'de-DE'; & $(& $sq $pipeline) -SourceRoot $(& $sq $van) -WorkDir $(& $sq $deWork) -DataDir $(& $sq $deData)" *> $null
 $wRow = @(Import-Csv (Join-Path $deData 'keys-human.csv') | Where-Object Path -eq '/breed/weight')[0]
 Assert-Equal '3.5' $wRow.NumMin 'numbers are written with a dot under a comma-decimal culture'
 

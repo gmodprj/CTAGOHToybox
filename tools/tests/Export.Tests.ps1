@@ -124,7 +124,9 @@ Assert-Equal 'mine' ([IO.File]::ReadAllText((Join-Path $foreign 'keep.txt'))) 'f
 # M8: 상대 경로는 PowerShell의 현재 위치 기준이다 (프로세스 시작 폴더가 아니라)
 $base = New-TestDir; Copy-Item -Recurse -LiteralPath $src -Destination (Join-Path $base 'src')
 $exportScript = (Resolve-Path "$PSScriptRoot/../Export-PakText.ps1").Path
-pwsh -NoProfile -Command "Set-Location -LiteralPath '$base'; & '$exportScript' -SourceRoot src -OutDir out -DataDir data" *> $null
+# 경로에 작은따옴표가 있을 수 있다(저장소 E:\Toybox's\...). -Command 문자열 안에서는 ''로 쓴다
+$sq = { param($p) "'" + $p.Replace("'", "''") + "'" }
+pwsh -NoProfile -Command "Set-Location -LiteralPath $(& $sq $base); & $(& $sq $exportScript) -SourceRoot src -OutDir out -DataDir data" *> $null
 Assert-Equal $true (Test-Path -LiteralPath (Join-Path $base 'data\file-index.csv')) 'relative DataDir resolves against the current location'
 Assert-Equal $true (Test-Path -LiteralPath (Join-Path $base 'out\set\a.set')) 'relative OutDir resolves against the current location'
 
