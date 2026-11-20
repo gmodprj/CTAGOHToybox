@@ -23,8 +23,8 @@
 | [vehicle.md](vehicle.md) | 본체 | 차량 엔티티 | `entity/-vehicle/<진영>/<분류>/<이름>/<이름>.def` | 282 | 24 | 14 | 130 | 75 | 39 |
 | [vehicle.md](vehicle.md) | 연관 | 차량 전용 속성 (.ext) | `entity/-vehicle/**/*.ext` | 180 | 1 | 15 | 99 | 40 | 25 |
 | [vehicle.md](vehicle.md) | 연관 | 차량 전용 속성 (.inc) | `entity/-vehicle/**/*.inc` | 113 | 0 | 9 | 57 | 39 | 8 |
-| [vehicle.md](vehicle.md) | 연관 | 공통 속성 (.ext) | `properties/**/*.ext` | 888 | 42 | 110 | 487 | 170 | 79 |
-| [vehicle.md](vehicle.md) | 연관 | 공통 속성 (.inc) | `properties/**/*.inc` | 605 | 136 | 102 | 247 | 30 | 90 |
+| [vehicle.md](vehicle.md) | 연관 | 공통 속성 (.ext) | `properties/**/*.ext` | 873 | 40 | 99 | 485 | 170 | 79 |
+| [vehicle.md](vehicle.md) | 연관 | 공통 속성 (.inc) | `properties/**/*.inc` | 633 | 138 | 117 | 257 | 30 | 91 |
 | [weapon-ammo.md](weapon-ammo.md) | 본체 | 무기와 장구 정의 (확장자 없음) | `set/stuff/<폴더>/<이름>` | 157 | 43 | 7 | 66 | 23 | 18 |
 | [weapon-ammo.md](weapon-ammo.md) | 본체 | 무기 정의 (.weapon) | `set/stuff/{reactive,mortar,bazooka,explosive}/*.weapon` | 58 | 16 | 4 | 22 | 9 | 7 |
 | [weapon-ammo.md](weapon-ammo.md) | 본체 | 탄약 (.ammo) | `set/stuff/**/*.ammo` | 79 | 10 | 3 | 30 | 23 | 13 |
@@ -36,7 +36,7 @@
 | [weapon-ammo.md](weapon-ammo.md) | 연관 | 무기 상태 설정 (.fsm) | `set/stuff/_settings/*.fsm` | 5 | 0 | 0 | 5 | 0 | 0 |
 | [weapon-ammo.md](weapon-ammo.md) | 연관 | 폭발 계산 매크로 | `set/blast.inc` | 71 | 0 | 0 | 53 | 0 | 18 |
 | [item-entity.md](item-entity.md) | 본체 | 아이템 엔티티 | `entity/inventory/**/*.def` | 78 | 2 | 4 | 46 | 0 | 26 |
-| 합계 | | | | 3372 | 367 | 304 | 1831 | 483 | 387 |
+| 합계 | | | | 3385 | 367 | 308 | 1839 | 483 | 388 |
 
 ## 표 읽는 법
 

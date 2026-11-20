@@ -58,10 +58,10 @@
 		}
 	}
 	{volume "turret"
-		{thickness 410
-			{front 900}
-			{top 200}
-			{rear 750}
+		{thickness 475
+			{front 950}
+			{top 250}
+			{rear 900}
 		}
 	}
 	{volume "mantlet"

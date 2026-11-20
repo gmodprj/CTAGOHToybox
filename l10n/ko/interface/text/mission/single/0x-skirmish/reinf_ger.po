@@ -1,5 +1,5 @@
 # source: vanilla interface/text/mission/single/0x-skirmish/reinf_ger.pot
-# game-version: 1.0.6.7-aaa36ed4d
+# game-version: 1.0.6.9-fd5c5ce0f
 msgid ""
 msgstr ""
 "Project-Id-Version: Gates of Hell (menu_ger)\n"
@@ -42,12 +42,12 @@ msgid "Return to menu"
 msgstr "메뉴로 돌아가기"
 
 msgctxt "mission/single/0x-skirmish/menu_ger/airstrike"
-msgid "Bf109 strafing run"
-msgstr "Bf109 기총소사"
+msgid "Air strafing run"
+msgstr "기총소사"
 
 msgctxt "mission/single/0x-skirmish/menu_ger/airstrike2"
-msgid "Bf110 bombing run"
-msgstr "Bf110 폭격"
+msgid "Air bombing run"
+msgstr "폭격"
 
 msgctxt "mission/single/0x-skirmish/menu_ger/medic"
 msgid "Medic"

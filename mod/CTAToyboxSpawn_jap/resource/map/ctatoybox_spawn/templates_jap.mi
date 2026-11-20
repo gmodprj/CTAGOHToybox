@@ -4329,178 +4329,13 @@
 		{Player 0}
 	}
 	{Entity "mace_strike_a6m3_60kg" 0xccf5
-		{Position -7940 8300}
-		{DisableObstacles}
-		{Player 0}
-		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
-		{ChassisManager {Current "airborne"}}
-	}
-	{Human "mp/jap/late/ijn_pilot" 0xccf6
-		{Position -7936 8300}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
-			{disabled}
-		}
-		{Player 0}
-	}
-	{Entity "a6m3_rockets" 0xccf7
-		{Position -9500 8300}
-		{DisableObstacles}
-		{Player 0}
-		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
-		{ChassisManager {Current "airborne"}}
-	}
-	{Human "mp/jap/late/ijn_pilot" 0xccf8
-		{Position -9496 8300}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
-			{disabled}
-		}
-		{Player 0}
-	}
-	{Entity "a6m3_rockets_ai" 0xccf9
-		{Position -9460 8300}
-		{DisableObstacles}
-		{Player 0}
-		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
-		{ChassisManager {Current "airborne"}}
-	}
-	{Human "mp/jap/late/ijn_pilot" 0xccfa
-		{Position -9456 8300}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
-			{disabled}
-		}
-		{Player 0}
-	}
-	{Entity "mace_strike_a6m3_rockets_ai" 0xccfb
-		{Position -9420 8300}
-		{DisableObstacles}
-		{Player 0}
-		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
-		{ChassisManager {Current "airborne"}}
-	}
-	{Human "mp/jap/late/ijn_pilot" 0xccfc
-		{Position -9416 8300}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
-			{disabled}
-		}
-		{Player 0}
-	}
-	{Entity "mace_strike_b5n2_250kg" 0xccfd
-		{Position -9380 8300}
-		{DisableObstacles}
-		{Player 0}
-		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
-		{ChassisManager {Current "airborne"}}
-	}
-	{Human "mp/jap/late/ijn_pilot" 0xccfe
-		{Position -9376 8300}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
-			{disabled}
-		}
-		{Player 0}
-	}
-	{Entity "b5n2_60x6kg" 0xccff
-		{Position -9340 8300}
-		{DisableObstacles}
-		{Player 0}
-		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
-		{ChassisManager {Current "airborne"}}
-	}
-	{Human "mp/jap/late/ijn_pilot" 0xcd00
-		{Position -9336 8300}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
-			{disabled}
-		}
-		{Player 0}
-	}
-	{Entity "mace_strike_b5n2_60x6kg" 0xcd01
-		{Position -9300 8300}
-		{DisableObstacles}
-		{Player 0}
-		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
-		{ChassisManager {Current "airborne"}}
-	}
-	{Human "mp/jap/late/ijn_pilot" 0xcd02
-		{Position -9296 8300}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
-			{disabled}
-		}
-		{Player 0}
-	}
-	{Entity "b5n2_800kg" 0xcd03
-		{Position -9260 8300}
-		{DisableObstacles}
-		{Player 0}
-		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
-		{ChassisManager {Current "airborne"}}
-	}
-	{Human "mp/jap/late/ijn_pilot" 0xcd04
-		{Position -9256 8300}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
-			{disabled}
-		}
-		{Player 0}
-	}
-	{Entity "mace_strike_b5n2_800kg" 0xcd05
-		{Position -9220 8300}
-		{DisableObstacles}
-		{Player 0}
-		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
-		{ChassisManager {Current "airborne"}}
-	}
-	{Human "mp/jap/late/ijn_pilot" 0xcd06
-		{Position -9216 8300}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
-			{disabled}
-		}
-		{Player 0}
-	}
-	{Entity "kikka" 0xcd07
-		{Position -9180 8300}
-		{DisableObstacles}
-		{Player 0}
-		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
-		{ChassisManager {Current "airborne"}}
-	}
-	{Human "mp/jap/late/ijn_pilot" 0xcd08
-		{Position -9176 8300}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
-			{disabled}
-		}
-		{Player 0}
-	}
-	{Entity "mace_strike_kikka2" 0xcd09
-		{Position -9140 8300}
-		{DisableObstacles}
-		{Player 0}
-		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
-		{ChassisManager {Current "airborne"}}
-	}
-	{Human "mp/jap/late/ijn_pilot" 0xcd0a
-		{Position -9136 8300}
-		{Volume "ram"
-			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
-			{disabled}
-		}
-		{Player 0}
-	}
-	{Entity "kikka2_800kg" 0xcd0b
 		{Position -9100 8300}
 		{DisableObstacles}
 		{Player 0}
 		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
 		{ChassisManager {Current "airborne"}}
 	}
-	{Human "mp/jap/late/ijn_pilot" 0xcd0c
+	{Human "mp/jap/late/ijn_pilot" 0xccf6
 		{Position -9096 8300}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
@@ -4508,15 +4343,180 @@
 		}
 		{Player 0}
 	}
-	{Entity "mace_strike_kikka2_800kg" 0xcd0d
+	{Entity "a6m3_rockets" 0xccf7
 		{Position -9060 8300}
 		{DisableObstacles}
 		{Player 0}
 		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
 		{ChassisManager {Current "airborne"}}
 	}
-	{Human "mp/jap/late/ijn_pilot" 0xcd0e
+	{Human "mp/jap/late/ijn_pilot" 0xccf8
 		{Position -9056 8300}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 0}
+	}
+	{Entity "a6m3_rockets_ai" 0xccf9
+		{Position -9020 8300}
+		{DisableObstacles}
+		{Player 0}
+		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
+		{ChassisManager {Current "airborne"}}
+	}
+	{Human "mp/jap/late/ijn_pilot" 0xccfa
+		{Position -9016 8300}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 0}
+	}
+	{Entity "mace_strike_a6m3_rockets_ai" 0xccfb
+		{Position -8980 8300}
+		{DisableObstacles}
+		{Player 0}
+		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
+		{ChassisManager {Current "airborne"}}
+	}
+	{Human "mp/jap/late/ijn_pilot" 0xccfc
+		{Position -8976 8300}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 0}
+	}
+	{Entity "mace_strike_b5n2_250kg" 0xccfd
+		{Position -8940 8300}
+		{DisableObstacles}
+		{Player 0}
+		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
+		{ChassisManager {Current "airborne"}}
+	}
+	{Human "mp/jap/late/ijn_pilot" 0xccfe
+		{Position -8936 8300}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 0}
+	}
+	{Entity "b5n2_60x6kg" 0xccff
+		{Position -8900 8300}
+		{DisableObstacles}
+		{Player 0}
+		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
+		{ChassisManager {Current "airborne"}}
+	}
+	{Human "mp/jap/late/ijn_pilot" 0xcd00
+		{Position -8896 8300}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 0}
+	}
+	{Entity "mace_strike_b5n2_60x6kg" 0xcd01
+		{Position -8860 8300}
+		{DisableObstacles}
+		{Player 0}
+		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
+		{ChassisManager {Current "airborne"}}
+	}
+	{Human "mp/jap/late/ijn_pilot" 0xcd02
+		{Position -8856 8300}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 0}
+	}
+	{Entity "b5n2_800kg" 0xcd03
+		{Position -8820 8300}
+		{DisableObstacles}
+		{Player 0}
+		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
+		{ChassisManager {Current "airborne"}}
+	}
+	{Human "mp/jap/late/ijn_pilot" 0xcd04
+		{Position -8816 8300}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 0}
+	}
+	{Entity "mace_strike_b5n2_800kg" 0xcd05
+		{Position -8780 8300}
+		{DisableObstacles}
+		{Player 0}
+		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
+		{ChassisManager {Current "airborne"}}
+	}
+	{Human "mp/jap/late/ijn_pilot" 0xcd06
+		{Position -8776 8300}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 0}
+	}
+	{Entity "kikka" 0xcd07
+		{Position -8740 8300}
+		{DisableObstacles}
+		{Player 0}
+		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
+		{ChassisManager {Current "airborne"}}
+	}
+	{Human "mp/jap/late/ijn_pilot" 0xcd08
+		{Position -8736 8300}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 0}
+	}
+	{Entity "mace_strike_kikka2" 0xcd09
+		{Position -8700 8300}
+		{DisableObstacles}
+		{Player 0}
+		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
+		{ChassisManager {Current "airborne"}}
+	}
+	{Human "mp/jap/late/ijn_pilot" 0xcd0a
+		{Position -8696 8300}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 0}
+	}
+	{Entity "kikka2_800kg" 0xcd0b
+		{Position -8660 8300}
+		{DisableObstacles}
+		{Player 0}
+		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
+		{ChassisManager {Current "airborne"}}
+	}
+	{Human "mp/jap/late/ijn_pilot" 0xcd0c
+		{Position -8656 8300}
+		{Volume "ram"
+			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
+			{disabled}
+		}
+		{Player 0}
+	}
+	{Entity "mace_strike_kikka2_800kg" 0xcd0d
+		{Position -8620 8300}
+		{DisableObstacles}
+		{Player 0}
+		{Chassis "airborne" {AirborneMode 1} {Altitude 40}}
+		{ChassisManager {Current "airborne"}}
+	}
+	{Human "mp/jap/late/ijn_pilot" 0xcd0e
+		{Position -8616 8300}
 		{Volume "ram"
 			{able {visible 0}{bullet 0}{throwing 0}{obstacle 0}{contact 0}{contact_ground 0}{blast 0}{select 0}{touch 0}{blockcamera 0}}
 			{disabled}
@@ -5077,19 +5077,19 @@
 	{Tags "hidden" "jap" "ctb_h2963" 0xccf2}
 	{Tags "hidden" "jap" "ctb_h2964" 0xccf3}
 	{Tags "hidden" "jap" "ctb_h2965" 0xccf4}
-	{Tags "ctb_a2559" "hidden" "jap" "ctb_air" 0xccf5}
-	{Tags "ctb_a2560" "hidden" "jap" "ctb_air" 0xccf7}
-	{Tags "ctb_a2561" "hidden" "jap" "ctb_air" 0xccf9}
-	{Tags "ctb_a2562" "hidden" "jap" "ctb_air" 0xccfb}
-	{Tags "ctb_a2563" "hidden" "jap" "ctb_air" 0xccfd}
-	{Tags "ctb_a2564" "hidden" "jap" "ctb_air" 0xccff}
-	{Tags "ctb_a2565" "hidden" "jap" "ctb_air" 0xcd01}
-	{Tags "ctb_a2566" "hidden" "jap" "ctb_air" 0xcd03}
-	{Tags "ctb_a2567" "hidden" "jap" "ctb_air" 0xcd05}
-	{Tags "ctb_a2568" "hidden" "jap" "ctb_air" 0xcd07}
-	{Tags "ctb_a2569" "hidden" "jap" "ctb_air" 0xcd09}
-	{Tags "ctb_a2570" "hidden" "jap" "ctb_air" 0xcd0b}
-	{Tags "ctb_a2571" "hidden" "jap" "ctb_air" 0xcd0d}
+	{Tags "ctb_a2570" "hidden" "jap" "ctb_air" 0xccf5}
+	{Tags "ctb_a2571" "hidden" "jap" "ctb_air" 0xccf7}
+	{Tags "ctb_a2572" "hidden" "jap" "ctb_air" 0xccf9}
+	{Tags "ctb_a2573" "hidden" "jap" "ctb_air" 0xccfb}
+	{Tags "ctb_a2574" "hidden" "jap" "ctb_air" 0xccfd}
+	{Tags "ctb_a2575" "hidden" "jap" "ctb_air" 0xccff}
+	{Tags "ctb_a2576" "hidden" "jap" "ctb_air" 0xcd01}
+	{Tags "ctb_a2577" "hidden" "jap" "ctb_air" 0xcd03}
+	{Tags "ctb_a2578" "hidden" "jap" "ctb_air" 0xcd05}
+	{Tags "ctb_a2579" "hidden" "jap" "ctb_air" 0xcd07}
+	{Tags "ctb_a2580" "hidden" "jap" "ctb_air" 0xcd09}
+	{Tags "ctb_a2581" "hidden" "jap" "ctb_air" 0xcd0b}
+	{Tags "ctb_a2582" "hidden" "jap" "ctb_air" 0xcd0d}
 	{Helpers
 		{triggers
 			{"ctb_has_jap"

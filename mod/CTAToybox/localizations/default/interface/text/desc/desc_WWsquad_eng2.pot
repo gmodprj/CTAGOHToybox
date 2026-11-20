@@ -12,11 +12,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-msgctxt "desc/squad/single_tankman_ace_eng"
+msgctxt "desc/human/mp/eng/mid/tankman_ace"
+msgid "에이스 전차병 [BA]"
+msgstr ""
+
+msgctxt "desc/human/mp/eng/mid/tank_commander_ace"
+msgid "에이스 전차장 [BA]"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman_ace(eng)"
 msgid "에이스 전차 승무원"
 msgstr ""
 
-msgctxt "info/special/single_tankman_ace_eng"
+msgctxt "info/special/single_tankman_ace(eng)"
 msgid "<c(c3baae)>정예 승무원</c>"
 msgstr ""
 

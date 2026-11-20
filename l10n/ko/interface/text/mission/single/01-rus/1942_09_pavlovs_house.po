@@ -1,5 +1,5 @@
 # source: vanilla interface/text/mission/single/01-rus/1942_09_pavlovs_house.pot
-# game-version: 1.0.6.7-aaa36ed4d
+# game-version: 1.0.6.9-fd5c5ce0f
 msgid ""
 msgstr ""
 "Project-Id-Version: Gates of Hell Editor (Dev) (1942_09_pavlovs_house)\n"

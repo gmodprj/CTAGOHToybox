@@ -16,4 +16,9 @@
   - V1: `gun/v1rocket_gun`의 장전 900 → 750초, `gun/v1rocket_gun.weapon` 40 → 35초, `reactive/rocket_v1.weapon`의 `rechargeTime`·`recoveryTime` 900 → 750.
   - `vz68.def`의 동축 기관총 `kpvt` → `kpvt_2`.
   - 컨퀘스트 AI: `script/multiplayer/modes/conquest/orders.lua`(`ACTIVE_DEFENSE_CHANCE` 0.75 → 0.8, 빈 목록 검사), `runtime_config.lua`(줄 주석이 늘고 구조와 값이 바뀌었다: 난이도별 easy·normal·hard·heroic 표, 공격 파도·수비 첫 배치·수비 반격 값 등). 편집기가 이 판에서 읽는 키 317개는 모두 `data/annotations/settings.psv`의 주석이 붙는다(2026-10-21 확인).
-- **게임 버전.** `mod.info`가 `"any"`다. 창작마당 갱신일은 2026-10-20이다(처음 조사는 2026-10-11, 2026-10-16·2026-10-21에 다시 분석했다).
+- **2026-11-08 갱신에서 바뀐 것.** 창작마당 변경 기록(2026-11-07 세 번)에는 설명이 없어 2026-10-21 분석의 `file-index.csv`와 대조했다(2026-11-20). 분석 범위 안에서 내용이 바뀐 텍스트 파일 59개, 새 파일 254개, 없어진 파일 1개(`is_7.mdl`)다.
+  - 새 미국 차량 11종(`+usa/tank_medium`): `m47_patton`, `m48`, `m48a1`, `m48a3`, `m48a3_acav`, `m60_patton`, `m50`·`m50_airlift`, `m56`·`m56_airlift`, `m163`과 손상 모델 `x/*_x`·`*_xx`. 새 포 `105mm_m68`, `106mm_m40_x6`, `20mm_m168`, `90mm_m36`, `90mm_m41`, `90mm_m54`와 탄. 연구(`unit_research_usa.set`의 전후 분기), 교리(`units/late/units_usa.set`의 `doctrine_m48a3` 등), `unit.reg`, `resupply.inc`의 탄 항목.
+  - 에이스 승무원 병종 8개(`set/breed/mp/<eng·jap·rus·usa>/mid/tankman_ace·tank_commander_ace`), 컨퀘스트 AI 로스터 `units_ace_ai_cq.set`, `roster_conquest.set`.
+  - 값: `e-100c.ext` 장갑(기본 82 → 95, 전면 180 → 190, 상면 40 → 50, 후면 150 → 180), `e200_robztest.ext` 전면 260 → 350, `resupply.inc`의 150mm `xiniu` 탄 20 → 35, `gun/ger_at`(사거리 `range_210` → `{range 325 325}`, 속도 780 → 100, `{gravity 0}`), `150mm_sfh43` 등 포 11개와 탄 12개, T26E5 승무원 5 → 4, 연구·로스터 5개국.
+  - 컨퀘스트 AI `runtime_config.lua`: 수비·공격 대기(`DefenseMin/Max` 2 → 5·8초, `AttackMin/Max` 1 → 8·12초), 파도 간격(`DCGWaveOffMin/Max` 1.25·2 → 4·6분) 등.
+- **게임 버전.** `mod.info`가 `"any"`다. 창작마당 갱신일은 2026-11-08이다(처음 조사는 2026-10-11, 2026-10-16·2026-10-21·2026-11-20에 다시 분석했다).

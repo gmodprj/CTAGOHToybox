@@ -6,5 +6,8 @@
 {from "150mm_sig33"			; L/11 "sig33b"
 	{fireSoundClose "cannon/s3/1p/Shared/"}
 	{reloadSound "tank/1p/large/"}
+	{parameters "he" {gravity 2.5}
+	{rechargeTime 15}
+}
 	{rechargeTime 13}
 }

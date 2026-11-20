@@ -8,7 +8,7 @@
 	{fireSound "cannon/s2/d1/Shared/Cannon_45to47mm/"}
 	{fireSoundclose "cannon/s1/1p/Shared/Cannon/"}
 	{reloadSound "tank/1p/small_long/"}
-	("range_180")
+	("range_170")
 	{calibre 47}
 
 	("reload time" seconds(5))
@@ -25,5 +25,5 @@
 		{range 170 170}
 	}
 
-	("accuracy_direct" r1(0.62) range_ap(170) range_he(160) range_heat(160))
+	("accuracy_direct" r1(0.62) range_ap(170) range_he(170) range_heat(160))
 }

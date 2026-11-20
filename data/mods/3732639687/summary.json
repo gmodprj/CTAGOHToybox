@@ -1,89 +1,96 @@
 {
   "Id": "3732639687",
-  "Files": 71221,
+  "Files": 73161,
   "FilesByStatus": {
     "collision": 2481,
     "empty": 11,
-    "excluded-binary": 39810,
-    "excluded-scope": 10067,
-    "reference-only": 388,
-    "text": 18464
+    "excluded-binary": 40980,
+    "excluded-scope": 10584,
+    "reference-only": 402,
+    "text": 18703
   },
   "FilesByRelation": {
     "in-mod-collision": 2481,
-    "new": 62066,
-    "override-changed": 6564,
-    "override-identical": 53,
-    "override-unhashed": 57
+    "new": 64000,
+    "override-changed": 6566,
+    "override-identical": 52,
+    "override-unhashed": 62
   },
   "TextByRelationAndTop": {
-    "new entity/-vehicle": 9732,
+    "new entity/-vehicle": 9954,
     "override-changed entity/-vehicle": 5358,
     "new entity/inventory": 1263,
     "override-changed entity/humanskin": 1126,
     "new entity/humanskin": 763,
-    "new set/stuff": 454,
-    "override-identical set/stuff": 49,
-    "override-changed set/stuff": 43,
+    "new set/stuff": 475,
+    "override-identical set/stuff": 48,
+    "override-changed set/stuff": 44,
     "override-changed set/dynamic_campaign": 15,
     "new script/units": 10,
-    "new set/multiplayer": 6,
-    "override-changed set/multiplayer": 5,
+    "new set/breed": 8,
+    "new set/multiplayer": 7,
+    "override-changed set/multiplayer": 6,
     "override-changed set/interaction_entity": 5,
-    "override-identical entity/inventory": 4,
     "new set/interaction_entity": 4,
+    "override-identical entity/inventory": 4,
     "override-changed set/third_person": 2,
     "override-changed script/multiplayer": 2,
+    "override-changed set/tp_control.set": 1,
+    "override-changed set/registry": 1,
+    "override-changed set/material.set": 1,
+    "override-changed properties/tank_unarmed.ext": 1,
     "override-changed properties/tank_crew.ext": 1,
     "override-changed properties/resupply.inc": 1,
-    "override-changed entity/inventory": 1,
-    "override-changed set/material.set": 1,
-    "new properties/super_heavy_crew.inc": 1,
-    "override-changed set/registry": 1,
-    "new set/third_person": 1,
-    "new set/dynamic_campaign": 1
+    "override-changed entity/inventory": 1
   },
   "UnitsByKindRelation": {
+    "breed new": 8,
     "item-entity changed": 1,
     "item-entity new": 341,
     "pattern new": 14,
-    "stuff changed": 43,
-    "stuff new": 440,
-    "vehicle new": 537
+    "stuff changed": 44,
+    "stuff new": 461,
+    "vehicle new": 567
   },
   "NewVehicleDefsByNation": {
     "eng": 161,
     "+germany": 158,
     "+ussr": 135,
-    "+usa": 57,
+    "+usa": 87,
     "+japan": 26
   },
-  "NewBreedsByFolder": {},
-  "KeysNotInVanilla": 1631,
+  "NewBreedsByFolder": {
+    "mp/eng": 2,
+    "mp/jap": 2,
+    "mp/rus": 2,
+    "mp/usa": 2
+  },
+  "KeysNotInVanilla": 1684,
   "KeysNotInVanillaByForm": {
-    "block": 1278,
-    "macro": 232,
+    "block": 1327,
+    "macro": 236,
     "define": 103,
     "mod": 13,
     "include": 3,
     "bare": 2
   },
-  "NamesNotInVanilla": 303,
+  "NamesNotInVanilla": 304,
   "NamesNotInVanillaByForm": {
-    "macro": 158,
+    "macro": 159,
     "define": 85,
     "block": 60
   },
   "DistinctNewBlockNames": 38,
   "RoundTripFailed": [],
-  "UnresolvedFiles": 44,
+  "UnresolvedFiles": 47,
   "UnresolvedTop": {
+    "param:%door2": 17,
     "param:%door": 14,
-    "param:%door2": 14,
     "param:%group": 12,
+    "param:%door3": 3,
+    "param:%visor": 3,
     "param:%0": 2,
-    "param:%door3": 2,
-    "param:%visor": 2,
+    "param:%2": 2,
     "include:properties/projectile_impulse.ext": 1,
     "param:%anm_left": 1,
     "param:%anm_right": 1,
@@ -95,5 +102,5 @@
     "entity/+inventory": 66,
     "entity/fx": 1
   },
-  "QuotedNamesNotInVanilla": 3310
+  "QuotedNamesNotInVanilla": 3365
 }

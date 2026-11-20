@@ -1,5 +1,5 @@
 # source: ctatoyboxspawn interface/text/mission/ctatoybox_spawn.pot
-# game-version: 1.0.6.7-aaa36ed4d
+# game-version: 1.0.6.9-fd5c5ce0f
 msgid ""
 msgstr ""
 "Project-Id-Version: CTAToybox Spawn\n"
@@ -749,8 +749,8 @@ msgid "Nashorn"
 msgstr "Nashorn"
 
 msgctxt "mission/ctatoybox_spawn/group_ger_tank_destroyers___spg_stug"
-msgid "StuG III Ausf.G (Early) (+4)"
-msgstr "StuG III Ausf.G (Early) (+4)"
+msgid "StuG III Ausf.B (+4)"
+msgstr "StuG III Ausf.B (+4)"
 
 msgctxt "mission/ctatoybox_spawn/group_ger_tank_destroyers___spg_sturmpanzer"
 msgid "Sturmpanzer IV"
@@ -1097,8 +1097,8 @@ msgid "A-20"
 msgstr "A-20"
 
 msgctxt "mission/ctatoybox_spawn/group_rus_light_tanks_bt"
-msgid "BT-7A (+4)"
-msgstr "BT-7A (+4)"
+msgid "BT-7 M1937 (+4)"
+msgstr "BT-7 M1937 (+4)"
 
 msgctxt "mission/ctatoybox_spawn/group_rus_light_tanks_kht"
 msgid "KhT-130 (Flame) (+1)"
@@ -1289,8 +1289,8 @@ msgid "M4/T26 “Jumbo”"
 msgstr "M4/T26 “Jumbo”"
 
 msgctxt "mission/ctatoybox_spawn/group_usa_medium_tanks_m"
-msgid "105mm HMC M7B1 (+38)"
-msgstr "105mm HMC M7B1 (+38)"
+msgid "M60 Patton (+49)"
+msgstr "M60 Patton (+49)"
 
 msgctxt "mission/ctatoybox_spawn/group_usa_medium_tanks_skink"
 msgid "Skink"

@@ -159,7 +159,6 @@
 									</DialogRef>
 									<!--<DialogRef refid="notification_hint"/>-->
 									<DialogRef refid="slow_hint" enableif="game.multiplayer"/>
-									<DialogRef refid="outofsync_hint" enableif="game.multiplayer"/>
 									<DialogRef refid="waiting_hint" enableif="game.multiplayer"/>
 						</Children>
 					</FlowPanel>

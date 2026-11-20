@@ -25,7 +25,7 @@
 }
 {Volume "body3"
 	{thickness 900
-		{front 1300}
+		{front 1750}
 		{top 500}
 		{rear 600}
 		{bottom 500}

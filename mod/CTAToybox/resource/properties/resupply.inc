@@ -738,8 +738,8 @@
 	
 	{item "bulletger_130"		"apcbche"	"ammo" 1  {value 12}}	;// amxm4
 	{item "bulletger_130"		"he"		"ammo" 1  {value 12}}	;// amxm4
-	{item "bulletger_150at"		"he"		"ammo" 1  {value 20}}	;// xiniu
-	{item "bulletger_150at"		"heat"		"ammo" 1  {value 20}}	;// xiniu
+	{item "bulletger_150at"		"he"		"ammo" 1  {value 35}}	;// xiniu
+	{item "bulletger_150at"		"heat"		"ammo" 1  {value 35}}	;// xiniu
 	{item "bulletger_170"		"ic"		"ammo" 1  {value 35}}	;// gw_tiger, hellboss
 	{item "bulletger_180_z"		"apcbche"	"ammo" 1  {value 40}}	;// bzt70, bzt70s
 	{item "bulletger_180_z"		"he"		"ammo" 1  {value 40}}	;// bzt70, bzt70s
@@ -829,6 +829,8 @@
 )
 
 (define "items_heavy_usa"
+	{item "bulletusa_20_auto"	"ap"		"ammo" 20  {value 5}}
+	{item "bulletusa_20_auto"	"he"		"ammo" 20  {value 5}}
 	{item "bulletusa_37"		"ap"		"ammo" 2  {value 5}}
 	{item "bulletusa_37"		"apcbc"		"ammo" 2  {value 5}}
 	{item "bulletusa_37"		"he"		"ammo" 2  {value 5}}
@@ -881,6 +883,14 @@
 	{item "bulletusa_90x1270"	"hvap"		"ammo" 1  {value 8}}
 	{item "bulletusa_90x1270"	"sm"		"ammo" 1  {value 8}}
 
+	{item "bullet90_m41"	                "sm"		"ammo" 1  {value 8}}
+	{item "bullet90_m41"	                "heat"		"ammo" 1  {value 8}}
+	{item "bullet90_m41"	                "he"		"ammo" 1  {value 8}}
+	{item "bullet90_m41"	             	"canister"		"ammo" 1  {value 8}}
+	{item "bullet90_m41"	              	"apcr"		"ammo" 1  {value 8}}
+	{item "bullet90_m41"	               	"apcbche"		"ammo" 1  {value 8}}
+	{item "bullet90_m41"	               	"apbc"		"ammo" 1  {value 8}}
+
 	{item "bulletusa_105"		"he"		"ammo" 1  {value 10}}
 	{item "bulletusa_105"		"heat"		"ammo" 1  {value 10}}
 	{item "bulletusa_105"		"sm"		"ammo" 1  {value 10}}
@@ -898,6 +908,13 @@
 	{item "t15e1_bulletusa_105"	"apcbc"		"ammo" 1  {value 10}}
 	{item "t15e1_bulletusa_105"	"he"		"ammo" 1  {value 10}}
 	{item "t15e1_bulletusa_105"	"hvap"		"ammo" 1  {value 10}}
+
+	{item "bullet105_m68"	"apds"		"ammo" 1  {value 10}}
+	{item "bullet105_m68"	"heat"		"ammo" 1  {value 10}}
+	{item "bullet105_m68"	"hesh"		"ammo" 1  {value 10}}
+
+	{item "bullet106_m40"	"he"		"ammo" 1  {value 10}}
+	{item "bullet106_m40"	"heat"		"ammo" 1  {value 10}}
 
 	{item "bulletusa_114"		"apcbche"	"ammo" 1  {value 12}}
 	{item "bulletusa_114"		"he"		"ammo" 1  {value 12}}

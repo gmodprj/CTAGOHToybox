@@ -9,6 +9,8 @@
 	{extension "object430u.mdl"}
 	(include "obj430u_1965.ext")
 
+	("gunner_visible")
+
 	{boarder
 		{anm "left"
 			{forward	{begin	"board_tank_left"} {end "pose_mgun_pz6"} {base "open1" +1}}

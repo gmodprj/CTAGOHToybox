@@ -41,11 +41,11 @@ msgid "메뉴로 돌아가기"
 msgstr ""
 
 msgctxt "mission/single/0x-skirmish/menu_ger/airstrike"
-msgid "Bf109 기총소사"
+msgid "기총소사"
 msgstr ""
 
 msgctxt "mission/single/0x-skirmish/menu_ger/airstrike2"
-msgid "Bf110 폭격"
+msgid "폭격"
 msgstr ""
 
 msgctxt "mission/single/0x-skirmish/menu_ger/medic"
