@@ -184,21 +184,21 @@
 | `/skeleton/bone/bone/bone/lodview` | block | []x76 | 42 | 76 | 예: | 미확인(자동) |  |  |  |
 | `/skeleton/bone/bone/bone/lodview/volumeview` | block | [str]x286 | 42 | 286 | 예: "bipod_leg_l.ply" | 미확인(자동) |  |  |  |
 | `/skeleton/bone/bone/bone/matrix34` | block | [num num num num num num num num num num num num]x46 | 28 | 46 | 예: -0.502634 0.859419 -0.0935912 0.85984 0.485759 -0.157204 -0.089642 -0.15949 -0.983121 -5.264 -4.17848 1.0062 | 미확인(자동) |  |  |  |
-| `/skeleton/bone/bone/bone/parameters` | block | [str]x5 | 4 | 5 | "id=gun;" ¦ "id=mgun;" ¦ "id=body;" | 미확인(자동) |  |  | "} ¦ Ground;"} |
+| `/skeleton/bone/bone/bone/parameters` | block | [str]x5 | 4 | 5 | "id=gun;" ¦ "id=mgun;" ¦ "id=body;" | 미확인(자동) |  |  | "} ¦ id=body;"} |
 | `/skeleton/bone/bone/bone/position` | block | [num num num]x46 | 30 | 46 | 예: -0.4819 -0.0512 -1.866 | 미확인(자동) |  |  | X (Forward/Backward) Y (Left/Right) Z (Up/Down) |
 | `/skeleton/bone/bone/bone/volumeview` | block | [str]x6 | 6 | 6 | "rope.ply" ¦ "belt.ply" ¦ "front.ply" ¦ "glass.ply" | 미확인(자동) |  |  |  |
 | `/skeleton/bone/bone/lodview` | block | []x2602 | 1341 | 2602 | 예: | 미확인(자동) |  |  |  |
 | `/skeleton/bone/bone/lodview/volumeview` | block | [str]x9113 | 1341 | 9113 | 예: "20mm_eng_auto_ap.ply" | 미확인(자동) |  |  |  |
 | `/skeleton/bone/bone/matrix34` | block | [num num num num num num num num num num num num]x852 [num num num num num atom num atom num num num num]x1 | 346 | 853 | 예: -1 0 0 0 0 -1 0 -1 0 -5.2015 0 0 | 미확인(자동) |  |  |  |
 | `/skeleton/bone/bone/orientation` | block | [num num num num num num num num num]x4 | 3 | 4 | -1 0 0 0 1 0 0 0 -1 ¦ 1 0 0 0 1 0 0 0 1 ¦ 0 0 1 0 1 0 -1 0 0 | 미확인(자동) |  |  |  |
-| `/skeleton/bone/bone/parameters` | block | [str]x53 | 21 | 53 | "ID=gun;" ¦ "id=mgun;" ¦ "ID=body;" ¦ "LastPose = undefined;" ¦ "commonmesh;" ¦ "ID=mgun;LastPose = undefined;" ¦ "commonmesh;id=body;" ¦ "id=lamp;" | 미확인(자동) |  |  | "} ¦ Ground;"} |
+| `/skeleton/bone/bone/parameters` | block | [str]x53 | 21 | 53 | "ID=gun;" ¦ "id=mgun;" ¦ "ID=body;" ¦ "LastPose = undefined;" ¦ "commonmesh;" ¦ "ID=mgun;LastPose = undefined;" ¦ "commonmesh;id=body;" ¦ "id=lamp;" | 미확인(자동) |  |  | "} ¦ id=body;"} |
 | `/skeleton/bone/bone/position` | block | [num num num]x367 | 158 | 367 | 예: -1 0 0 | 미확인(자동) |  |  | X (Forward/Backward) Y (Left/Right) Z (Up/Down) |
 | `/skeleton/bone/bone/visibility` | block | [num]x1 | 1 | 1 | 0 | 미확인(자동) |  |  |  |
 | `/skeleton/bone/bone/volumeview` | block | [str]x67 | 46 | 67 | 예: "rod.ply" | 미확인(자동) |  |  |  |
 | `/skeleton/bone/lodview` | block | []x1070 | 754 | 1070 | 예: | 미확인(자동) |  |  |  |
 | `/skeleton/bone/lodview/volumeview` | block | [str]x3377 | 754 | 3377 | 예: "bomb.ply" | 미확인(자동) |  |  |  |
 | `/skeleton/bone/orientation` | block | [num num num num num num num num num]x2047 | 2047 | 2047 | 1 0 0 0 -1 0 0 0 1 ¦ 0.95 0 0 0 -0.95 0 0 0 0.95 ¦ 1.21 0 0 0 -1.21 0 0 0 1.21 ¦ 0.75 0 0 0 -0.75 0 0 0 0.75 ¦ 1.15 0 0 0 -1.15 0 0 0 1.15 | 미확인(자동) |  |  |  |
-| `/skeleton/bone/parameters` | block | [str]x79 | 79 | 79 | "id=mgun;" ¦ "id=gun;" ¦ "LastPose = undefined;" ¦ "CommonMesh;" ¦ "CommonMesh;Ground;" | 미확인(자동) |  |  | "} ¦ Ground;"} |
+| `/skeleton/bone/parameters` | block | [str]x79 | 79 | 79 | "id=mgun;" ¦ "id=gun;" ¦ "LastPose = undefined;" ¦ "CommonMesh;" ¦ "CommonMesh;Ground;" | 미확인(자동) |  |  | "} ¦ id=body;"} |
 | `/skeleton/bone/position` | block | [num num num]x3 | 3 | 3 | -0.25 0 0 ¦ -0.2 0 0.1 ¦ 0 0 -10 | 추정 | 뼈대의 위치 x y z (추정: Call to Arms 위키도 추정이라고 밝힘) | calltoarms.fandom.com/wiki/Modding/Files (2026-10-12 확인) | X (Forward/Backward) Y (Left/Right) Z (Up/Down) |
 | `/skeleton/bone/volumeview` | block | [str]x83 | 83 | 83 | 예: "body.ply" | 미확인(자동) |  |  |  |
 | `/volume` | block | [str]x4220 | 2043 | 4220 | 예: "body" | 미확인(자동) |  |  |  |
@@ -255,9 +255,9 @@ include와 매크로를 펼친 뒤 유닛 안에서의 위치다. 펼치는 규�
 | `/actor/body` | block | []x36 | 36 | 36 | 예: | 미확인(자동) |  |  |  |
 | `/actor/body/permit` | block | [atom]x36 | 36 | 36 | body | 미확인(자동) |  |  |  |
 | `/actor/body/proper` | block | [atom atom]x36 | 36 | 36 | body sensible | 미확인(자동) |  |  |  |
-| `/actor/bone` | block | [str]x1 | 1 | 1 | "foresight3" | 미확인(자동) |  |  | Boys rot ¦ turret |
+| `/actor/bone` | block | [str]x1 | 1 | 1 | "foresight3" | 미확인(자동) |  |  | turret ¦ Boys rot |
 | `/actor/bone/limits` | block | [num num]x1 | 1 | 1 | -0 15 | 추정 | 회전 한계 각도 두 개 (추정: 주석 "elevation range = 0 +70") | 게임 파일 주석 | AA mode limits ¦ starting point is +20Â° elevation range = 0Â° +70Â° |
-| `/actor/bone/speed2` | block | [num]x1 | 1 | 1 | 10 | 문서 | 뼈대의 최대 속도. 회전은 도/초, 직선 이동은 미터/초. speed의 새 단위판이다 | mow-portal.ru의 SOEdit 해설 글 (Men of War 계열, 2026-10-12 확인) | manual handcrack, extremely slow ¦ remote controlled from inside |
+| `/actor/bone/speed2` | block | [num]x1 | 1 | 1 | 10 | 문서 | 뼈대의 최대 속도. 회전은 도/초, 직선 이동은 미터/초. speed의 새 단위판이다 | mow-portal.ru의 SOEdit 해설 글 (Men of War 계열, 2026-10-12 확인) | manual handcrack, extremely slow ¦ manual using gunner's shoulder |
 | `/actor/collider` | block | [str]x1747 | 1694 | 1747 | "stuff" ¦ "grenade" ¦ "nothing" ¦ "mine.at" ¦ "mine.ap" ¦ "mine.ap.grenade" ¦ "construction" | 추정 | 충돌 분류 이름. set/colliders.set의 항목을 가리키는 것으로 보인다 (추정: 값 "vehicle", "stuff") | 파일 구조와 값에서 추론 |  |
 | `/actor/constrain` | block | [atom]x1693 | 1693 | 1693 | ground | 미확인 | 값은 ground, none 등. 배치 제약으로 보이나 확인하지 못함 |  |  |
 | `/actor/extender[mine]` | block | [str]x36 | 18 | 36 | "mine" | 추정 | 지뢰 기능 (추정: 이름) | 파일 구조와 값에서 추론 |  |
@@ -276,17 +276,17 @@ include와 매크로를 펼친 뒤 유닛 안에서의 위치다. 펼치는 규�
 | `/actor/props` | block | [str]x1822 [str str str]x1677 [str str]x62 [str str str str str str]x16 [str str str str]x3 | 1694 | 3582 | 예: "steel" "stuff" "collectable" | 추정 | 엔티티 속성 태그 목록. 재질("steel"), 종류("vehicle"), 동작 조건 등을 나열한다 (추정: 값) | 파일 구조와 값에서 추론 |  |
 | `/actor/rimlight` | block | []x1677 | 1677 | 1677 | 예: | 미확인 | 인자 없는 플래그. 이름으로는 윤곽 조명으로 보이나 확인하지 못함 |  |  |
 | `/actor/simulation` | block | []x1693 | 1693 | 1693 | 예: | 추정 | 물리 시뮬레이션 설정 묶음. 하위 able(켜기), state, disableLinked (추정: properties의 stuff.ext 18줄 {simulation {able 1} {disableLinked 1}}, human.ext 249줄 {simulation {able 1} {state 0}}. 움직이지 않는 깃발·고정 열차포만 able 0) | 파일 구조와 값에서 추론 |  |
-| `/actor/simulation/able` | block | [num]x1693 | 1693 | 1693 | 1 | 추정 | 물리 시뮬레이션을 켠다(1)·끈다(0) (추정: /game_entity/simulation/able과 같은 자리. 0은 properties/stuff_flag.ext의 깃발과 고정 열차포뿐) | 파일 구조와 값에서 추론 | disables vehicle from being crewed until body is repaired ¦ stops uncontrolable actions (keep incase friendly is set on fire and is not damaged/killed) |
+| `/actor/simulation/able` | block | [num]x1693 | 1693 | 1693 | 1 | 추정 | 물리 시뮬레이션을 켠다(1)·끈다(0) (추정: /game_entity/simulation/able과 같은 자리. 0은 properties/stuff_flag.ext의 깃발과 고정 열차포뿐) | 파일 구조와 값에서 추론 | disables vehicle from being crewed until body is repaired ¦ stops uncontrollable actions |
 | `/actor/simulation/disablelinked` | block | [num]x1677 | 1677 | 1677 | 1 | 미확인 | 값 1뿐. 용도 불명 |  |  |
 | `/actor/simulatorid` | block | [str]x38 | 38 | 38 | "grenade" | 추정 | 물리 시뮬레이션 종류 (추정: 값 "airborne", "human", "water", "grenade") | 파일 구조와 값에서 추론 |  |
 | `/actor/skeleton` | block | []x19 | 19 | 19 | 예: | 추정 | 엔티티에 추가하는 뼈대 정의 (추정: 하위 bone/position) | 파일 구조와 값에서 추론 |  |
-| `/actor/skeleton/bone` | block | [str]x18 | 18 | 18 | "mined_view" | 미확인(자동) |  |  | Boys rot ¦ turret |
-| `/actor/skeleton/bone/matrix34` | block | [num num num num num num num num num num num num]x18 | 18 | 18 | 0 0 1 0 -1 0 1 0 0 0 0 0 | 추정 | 뼈대의 방향과 위치를 담은 3x4 행렬 (추정: Call to Arms 위키도 추정이라고 밝힘) | calltoarms.fandom.com/wiki/Modding/Files (2026-10-12 확인) | 0 90 0 ¦ 15 85 0 |
+| `/actor/skeleton/bone` | block | [str]x18 | 18 | 18 | "mined_view" | 미확인(자동) |  |  | turret ¦ Boys rot |
+| `/actor/skeleton/bone/matrix34` | block | [num num num num num num num num num num num num]x18 | 18 | 18 | 0 0 1 0 -1 0 1 0 0 0 0 0 | 추정 | 뼈대의 방향과 위치를 담은 3x4 행렬 (추정: Call to Arms 위키도 추정이라고 밝힘) | calltoarms.fandom.com/wiki/Modding/Files (2026-10-12 확인) | 0 90 0 ¦ standing |
 | `/actor/skeleton/texmods` | block | []x1 | 1 | 1 | 예: | 미확인(자동) |  |  |  |
 | `/actor/skeleton/texmods/"*"` | block | [str str]x48 | 1 | 48 | 예: "_x" "_x" | 추정 | 텍스처 변형(위장·계절) 이름과 텍스처 접미사 한 쌍 (추정: 값 "Autumn" "aut") | 파일 구조와 값에서 추론 |  |
 | `/actor/texmod` | block | [str]x3 | 3 | 3 | "black" ¦ "green" ¦ "camo" | 추정 | 기본으로 쓰는 텍스처 변형 이름 (추정: 값 "black", "camo") | 파일 구조와 값에서 추론 |  |
 | `/actor/volume` | block | [str]x9486 | 1694 | 9486 | "body" ¦ "select" ¦ "body1" ¦ "body2" ¦ "shield" ¦ "fuel" ¦ "magazine" ¦ "casing1" ¦ "casing2" ¦ "shell1" ¦ "shell2" | 추정 | 모델의 충돌 볼륨 하나에 대한 설정. 첫 문자열이 볼륨 이름 (추정: properties/vehicle.ext의 매크로가 {volume %0 ...} 형태) | 파일 구조와 값에서 추론 | Hull ¦ Superstructure |
-| `/actor/volume/able` | block | []x6000 [atom]x3566 | 1694 | 9566 | ¦ clear | 추정 | 볼륨이 반응하는 상호작용 묶음 (추정: 하위 플래그) | 파일 구조와 값에서 추론 | disables vehicle from being crewed until body is repaired ¦ stops uncontrolable actions (keep incase friendly is set on fire and is not damaged/killed) |
+| `/actor/volume/able` | block | []x6000 [atom]x3566 | 1694 | 9566 | ¦ clear | 추정 | 볼륨이 반응하는 상호작용 묶음 (추정: 하위 플래그) | 파일 구조와 값에서 추론 | disables vehicle from being crewed until body is repaired ¦ stops uncontrollable actions |
 | `/actor/volume/able/blast` | block | []x1693 | 1675 | 1693 | 예: | 문서 | 폭발 충격파에 반응하는지 여부. 기본 1 | Best Way 옛 공식 위키 wiki.bestway.com.ua의 web.archive.org 보존본 (В тылу врага 2 기준, 2026-10-12 확인) | koef = coefficient. Threshold = koef value x volume effective thickness ¦ 75mm+ HE will break |
 | `/actor/volume/able/bullet` | block | []x1695 | 1675 | 1695 | 예: | 문서 | 탄환과의 충돌에 반응하는지 여부. 기본 1. 0이면 탄이 그냥 지나간다 | Best Way 옛 공식 위키 wiki.bestway.com.ua의 web.archive.org 보존본 (В тылу врага 2 기준, 2026-10-12 확인) | required for AT-Grenades with cumaltive damage |
 | `/actor/volume/able/contact` | block | []x1697 | 1675 | 1697 | 예: | 추정 | 접촉 판정 대상 (추정: able의 하위 플래그. 0이면 끔) | 파일 구조와 값에서 추론 |  |
@@ -316,7 +316,7 @@ include와 매크로를 펼친 뒤 유닛 안에서의 위치다. 펼치는 규�
 | `/entity/props` | block | [str]x13 [str str str]x10 [str str]x1 | 10 | 24 | "steel" "stuff" "collectable" ¦ "nocover" ¦ "physics_damping" ¦ "grenade" "steel" ¦ "contact" ¦ "bipod" | 추정 | 엔티티 속성 태그 목록. 재질("steel"), 종류("vehicle"), 동작 조건 등을 나열한다 (추정: 값) | 파일 구조와 값에서 추론 |  |
 | `/entity/rimlight` | block | []x10 | 10 | 10 | 예: | 미확인 | 인자 없는 플래그. 이름으로는 윤곽 조명으로 보이나 확인하지 못함 |  |  |
 | `/entity/simulation` | block | []x10 | 10 | 10 | 예: | 추정 | 물리 시뮬레이션 설정 묶음. 하위 able(켜기), state, disableLinked (추정: properties의 stuff.ext 18줄 {simulation {able 1} {disableLinked 1}}, human.ext 249줄 {simulation {able 1} {state 0}}. 움직이지 않는 깃발·고정 열차포만 able 0) | 파일 구조와 값에서 추론 |  |
-| `/entity/simulation/able` | block | [num]x10 | 10 | 10 | 1 | 미확인(자동) |  |  | disables vehicle from being crewed until body is repaired ¦ stops uncontrolable actions (keep incase friendly is set on fire and is not damaged/killed) |
+| `/entity/simulation/able` | block | [num]x10 | 10 | 10 | 1 | 미확인(자동) |  |  | disables vehicle from being crewed until body is repaired ¦ stops uncontrollable actions |
 | `/entity/simulation/disablelinked` | block | [num]x10 | 10 | 10 | 1 | 미확인 | 값 1뿐. 용도 불명 |  |  |
 | `/entity/simulatorid` | block | [str]x1 | 1 | 1 | "grenade" | 추정 | 물리 시뮬레이션 종류 (추정: 값 "airborne", "human", "water", "grenade") | 파일 구조와 값에서 추론 |  |
 | `/entity/spriteview` | block | []x3 | 3 | 3 | 예: | 추정 | 엔티티에 붙여 그리는 스프라이트 하나 (추정: 하위 sprite, layer) | 파일 구조와 값에서 추론 |  |
@@ -324,17 +324,17 @@ include와 매크로를 펼친 뒤 유닛 안에서의 위치다. 펼치는 규�
 | `/entity/spriteview/sprite` | block | [str]x3 | 3 | 3 | "flag1.ebm" ¦ "flag2.ebm" | 추정 | 스프라이트로 쓰는 그림 파일(.ebm) (추정: 값 "arrow.ebm") | 파일 구조와 값에서 추론 |  |
 | `/entity/spriteview/sprite/light` | block | []x1 | 1 | 1 | 예: | 미확인 | 값 1 |  |  |
 | `/entity/spriteview/sprite/light/linear` | block | []x1 | 1 | 1 | 예: | 미확인(자동) |  |  |  |
-| `/entity/spriteview/sprite/light/linear/max` | block | [num]x1 | 1 | 1 | 0.2 | 미확인(자동) |  |  | max health ¦ max resources |
+| `/entity/spriteview/sprite/light/linear/max` | block | [num]x1 | 1 | 1 | 0.2 | 미확인(자동) |  |  | max resources ¦ max health |
 | `/entity/spriteview/sprite/light/linear/min` | block | [num]x1 | 1 | 1 | 1 | 미확인(자동) |  |  |  |
 | `/entity/spriteview/sprite/preturn` | block | [num]x3 | 3 | 3 | 90 | 추정 | 미리 돌려 놓는 각도, 도 (추정: 값 90) | 파일 구조와 값에서 추론 |  |
 | `/entity/spriteview/sprite/scale` | block | [num]x2 []x1 | 3 | 3 | 0.3 | 추정 | 스프라이트 배율 (추정: 이름) | 파일 구조와 값에서 추론 |  |
 | `/entity/spriteview/sprite/scale/linear` | block | []x1 | 1 | 1 | 예: | 미확인(자동) |  |  |  |
-| `/entity/spriteview/sprite/scale/linear/max` | block | [num]x1 | 1 | 1 | 0.35 | 미확인(자동) |  |  | max health ¦ max resources |
+| `/entity/spriteview/sprite/scale/linear/max` | block | [num]x1 | 1 | 1 | 0.35 | 미확인(자동) |  |  | max resources ¦ max health |
 | `/entity/spriteview/sprite/scale/linear/min` | block | [num]x1 | 1 | 1 | 0.6 | 미확인(자동) |  |  |  |
 | `/entity/spriteview/sprite/timer` | block | []x1 | 1 | 1 | 예: | 미확인(자동) |  |  |  |
 | `/entity/spriteview/sprite/timer/duration` | block | [num]x1 | 1 | 1 | 1.2 | 미확인(자동) |  |  |  |
 | `/entity/volume` | block | [str]x60 | 10 | 60 | "body" ¦ "select" ¦ "body1" ¦ "body2" ¦ "fuel" ¦ "shield" ¦ "magazine" | 추정 | 모델의 충돌 볼륨 하나에 대한 설정. 첫 문자열이 볼륨 이름 (추정: properties/vehicle.ext의 매크로가 {volume %0 ...} 형태) | 파일 구조와 값에서 추론 | Hull ¦ Superstructure |
-| `/entity/volume/able` | block | []x38 [atom]x22 | 10 | 60 | ¦ clear | 미확인(자동) |  |  | disables vehicle from being crewed until body is repaired ¦ stops uncontrolable actions (keep incase friendly is set on fire and is not damaged/killed) |
+| `/entity/volume/able` | block | []x38 [atom]x22 | 10 | 60 | ¦ clear | 미확인(자동) |  |  | disables vehicle from being crewed until body is repaired ¦ stops uncontrollable actions |
 | `/entity/volume/able/blast` | block | []x10 | 10 | 10 | 예: | 문서 | 폭발 충격파에 반응하는지 여부. 기본 1 | Best Way 옛 공식 위키 wiki.bestway.com.ua의 web.archive.org 보존본 (В тылу врага 2 기준, 2026-10-12 확인) | koef = coefficient. Threshold = koef value x volume effective thickness ¦ 75mm+ HE will break |
 | `/entity/volume/able/bullet` | block | []x10 | 10 | 10 | 예: | 문서 | 탄환과의 충돌에 반응하는지 여부. 기본 1. 0이면 탄이 그냥 지나간다 | Best Way 옛 공식 위키 wiki.bestway.com.ua의 web.archive.org 보존본 (В тылу врага 2 기준, 2026-10-12 확인) | required for AT-Grenades with cumaltive damage |
 | `/entity/volume/able/contact` | block | []x11 | 10 | 11 | 예: | 추정 | 접촉 판정 대상 (추정: able의 하위 플래그. 0이면 끔) | 파일 구조와 값에서 추론 |  |
@@ -345,7 +345,7 @@ include와 매크로를 펼친 뒤 유닛 안에서의 위치다. 펼치는 규�
 | `/entity/volume/able/visible` | block | [num]x30 []x10 | 10 | 40 | 0 | 문서 | 시야 판정과 높이 맵 생성에 쓰이는 볼륨인지 여부. 기본 1. 켜면 뒤의 것을 가린다 | Best Way 옛 공식 위키 wiki.bestway.com.ua의 web.archive.org 보존본 (В тылу врага 2 기준, 2026-10-12 확인) | once spotted, the distance the unit will remain spotted until Line Of Sight is broken. ¦ once human is spotted, the distance the human will remain spotted until Line Of Sight is broken. When placed outside of a specific stance block, it becomes a master value for all stances. |
 | `/entity/volume/density` | block | [num]x11 | 10 | 11 | 0 | 문서 | 장갑의 밀도(품질) 계수. 기본 1 | mow-portal.ru의 SOEdit 해설 글 (Men of War 계열, 2026-10-12 확인) |  |
 | `/entity/volume/thickness` | block | [num]x31 | 10 | 31 | 1 | 추정 | 볼륨의 장갑 두께. 단위는 mm로 보인다 (추정: 원문 주석이 "15 + 4", "4mm + .25"" 같이 판 두께를 적음) | 게임 파일 주석 | 15 + 4 ¦ 89 + 89 |
-| `/game_entity` | block | [atom]x512 []x34 | 546 | 546 | game_entity ¦ | 추정 | 엔티티 정의의 최상위 블록. 차량·화포·보병 외형·일부 아이템이 쓴다 (추정: 파일 구조) | 파일 구조와 값에서 추론 | june '41 ¦ jan 45 |
+| `/game_entity` | block | [atom]x512 []x34 | 546 | 546 | game_entity ¦ | 추정 | 엔티티 정의의 최상위 블록. 차량·화포·보병 외형·일부 아이템이 쓴다 (추정: 파일 구조) | 파일 구조와 값에서 추론 | june '41 ¦ normandy '44 |
 | `/game_entity/armor` | block | []x4 | 2 | 4 | 예: | 추정 | 장갑 판정 설정 묶음 (추정: 하위가 setting/threshold) | 파일 구조와 값에서 추론 |  |
 | `/game_entity/armor/setting` | block | [str]x8 | 2 | 8 | "body" ¦ "roof" | 문서 | 장갑 설정 묶음 하나. 문자열은 설정 이름 | GEM RTS 엔진 공식 문서 docs.bestway.com.ua (Men of War II 기준, 2026-10-12 확인) |  |
 | `/game_entity/armor/setting/ray_cast_thickness` | block | []x4 | 2 | 4 | 예: | 문서 | 장갑 두께를 재는 방법. 1이면 탄이 볼륨을 지나간 거리로, 0이면 thickness 값으로 잰다 | GEM RTS 엔진 공식 문서 docs.bestway.com.ua (Men of War II 기준, 2026-10-12 확인) |  |
@@ -379,9 +379,9 @@ include와 매크로를 펼친 뒤 유닛 안에서의 위치다. 펼치는 규�
 | `/game_entity/rimlight` | block | []x455 | 455 | 455 | 예: | 미확인 | 인자 없는 플래그. 이름으로는 윤곽 조명으로 보이나 확인하지 못함 |  |  |
 | `/game_entity/scale` | block | [num]x4 | 4 | 4 | 0.85 ~ 1.5 | 미확인(자동) |  |  |  |
 | `/game_entity/simulation` | block | []x511 | 511 | 511 | 예: | 추정 | 물리 시뮬레이션 설정 묶음. 하위 able(켜기), state, disableLinked (추정: properties의 stuff.ext 18줄 {simulation {able 1} {disableLinked 1}}, human.ext 249줄 {simulation {able 1} {state 0}}. 움직이지 않는 깃발·고정 열차포만 able 0) | 파일 구조와 값에서 추론 |  |
-| `/game_entity/simulation/able` | block | [num]x511 | 511 | 511 | 1 | 추정 | 물리 시뮬레이션을 켠다(1)·끈다(0) (추정: 0은 properties/stuff_flag.ext 4줄의 깃발과 고정 열차포 305mm_mb_2_12.def 14줄뿐이고 vehicle.ext 4줄·stuff.ext 18줄 등 나머지는 1) | 파일 구조와 값에서 추론 | disables vehicle from being crewed until body is repaired ¦ stops uncontrolable actions (keep incase friendly is set on fire and is not damaged/killed) |
+| `/game_entity/simulation/able` | block | [num]x511 | 511 | 511 | 1 | 추정 | 물리 시뮬레이션을 켠다(1)·끈다(0) (추정: 0은 properties/stuff_flag.ext 4줄의 깃발과 고정 열차포 305mm_mb_2_12.def 14줄뿐이고 vehicle.ext 4줄·stuff.ext 18줄 등 나머지는 1) | 파일 구조와 값에서 추론 | disables vehicle from being crewed until body is repaired ¦ stops uncontrollable actions |
 | `/game_entity/simulation/disablelinked` | block | [num]x493 | 493 | 493 | 1 | 미확인 | 값 1뿐. 용도 불명 |  |  |
-| `/game_entity/simulation/state` | block | [num]x17 | 17 | 17 | 1 | 미확인(자동) |  |  | 2hand & 1hand items ¦ to enable item ops in snipe cover |
+| `/game_entity/simulation/state` | block | [num]x17 | 17 | 17 | 1 | 미확인(자동) |  |  | 2hand & 1hand items ¦ inventory stuffing tags support |
 | `/game_entity/simulatorid` | block | [str]x14 | 14 | 14 | "grenade" | 추정 | 물리 시뮬레이션 종류 (추정: 값 "airborne", "human", "water", "grenade") | 파일 구조와 값에서 추론 |  |
 | `/game_entity/skeleton` | block | []x2 | 2 | 2 | 예: | 추정 | 엔티티에 추가하는 뼈대 정의 (추정: 하위 bone/position) | 파일 구조와 값에서 추론 |  |
 | `/game_entity/skeleton/texmods` | block | []x2 | 2 | 2 | 예: | 미확인(자동) |  |  |  |
@@ -394,11 +394,11 @@ include와 매크로를 펼친 뒤 유닛 안에서의 위치다. 펼치는 규�
 | `/game_entity/spriteview/sprite/highlight` | block | [atom]x60 | 20 | 60 | 0xFF5000 | 미확인(자동) |  |  |  |
 | `/game_entity/spriteview/sprite/light` | block | []x60 | 20 | 60 | 예: | 미확인 | 값 1 |  |  |
 | `/game_entity/spriteview/sprite/light/peak` | block | []x60 | 20 | 60 | 예: | 미확인(자동) |  |  |  |
-| `/game_entity/spriteview/sprite/light/peak/max` | block | [num]x60 | 20 | 60 | 0.4 ~ 0.5 | 미확인(자동) |  |  | max health ¦ max resources |
+| `/game_entity/spriteview/sprite/light/peak/max` | block | [num]x60 | 20 | 60 | 0.4 ~ 0.5 | 미확인(자동) |  |  | max resources ¦ max health |
 | `/game_entity/spriteview/sprite/light/peak/min` | block | [num]x60 | 20 | 60 | 0 | 미확인(자동) |  |  |  |
 | `/game_entity/spriteview/sprite/scale` | block | [num]x60 | 20 | 60 | 0.1 ~ 0.8 | 추정 | 스프라이트 배율 (추정: 이름) | 파일 구조와 값에서 추론 |  |
 | `/game_entity/spriteview/sprite/scale/linear` | block | []x40 | 20 | 40 | 예: | 미확인(자동) |  |  |  |
-| `/game_entity/spriteview/sprite/scale/linear/max` | block | [num]x40 | 20 | 40 | 0.03 ~ 0.1 | 미확인(자동) |  |  | max health ¦ max resources |
+| `/game_entity/spriteview/sprite/scale/linear/max` | block | [num]x40 | 20 | 40 | 0.03 ~ 0.1 | 미확인(자동) |  |  | max resources ¦ max health |
 | `/game_entity/spriteview/sprite/scale/linear/min` | block | [num]x40 | 20 | 40 | 0.15 ~ 0.3 | 미확인(자동) |  |  |  |
 | `/game_entity/spriteview/sprite/timer` | block | []x60 | 20 | 60 | 예: | 미확인(자동) |  |  |  |
 | `/game_entity/spriteview/sprite/timer/duration` | block | [num]x60 | 20 | 60 | 1 ~ 2 | 미확인(자동) |  |  |  |
@@ -406,7 +406,7 @@ include와 매크로를 펼친 뒤 유닛 안에서의 위치다. 펼치는 규�
 | `/game_entity/spriteview/sprite/visibility` | block | [num]x60 | 20 | 60 | 0.3 ~ 0.5 | 미확인(자동) |  |  |  |
 | `/game_entity/texmod` | block | [str]x1 | 1 | 1 | "ger" | 추정 | 기본으로 쓰는 텍스처 변형 이름 (추정: 값 "ger") | 파일 구조와 값에서 추론 |  |
 | `/game_entity/volume` | block | [str]x3060 | 525 | 3060 | "body" ¦ "select" ¦ "body1" ¦ "body2" ¦ "fuel" ¦ "shield" ¦ "magazine" | 추정 | 모델의 충돌 볼륨 하나에 대한 설정. 첫 문자열이 볼륨 이름 (추정: properties/vehicle.ext의 매크로가 {volume %0 ...} 형태) | 파일 구조와 값에서 추론 | Hull ¦ Superstructure |
-| `/game_entity/volume/able` | block | []x1937 [atom]x1041 | 513 | 2978 | ¦ clear | 추정 | 볼륨이 반응하는 상호작용 묶음. clear는 상속된 설정을 지우는 것으로 보인다 (추정: 하위가 bullet, blast, touch 등 인자 없는 플래그) | 파일 구조와 값에서 추론 | disables vehicle from being crewed until body is repaired ¦ stops uncontrolable actions (keep incase friendly is set on fire and is not damaged/killed) |
+| `/game_entity/volume/able` | block | []x1937 [atom]x1041 | 513 | 2978 | ¦ clear | 추정 | 볼륨이 반응하는 상호작용 묶음. clear는 상속된 설정을 지우는 것으로 보인다 (추정: 하위가 bullet, blast, touch 등 인자 없는 플래그) | 파일 구조와 값에서 추론 | disables vehicle from being crewed until body is repaired ¦ stops uncontrollable actions |
 | `/game_entity/volume/able/blast` | block | []x775 | 487 | 775 | 예: | 문서 | 폭발 충격파에 반응하는지 여부. 기본 1 | Best Way 옛 공식 위키 wiki.bestway.com.ua의 web.archive.org 보존본 (В тылу врага 2 기준, 2026-10-12 확인) | koef = coefficient. Threshold = koef value x volume effective thickness ¦ 75mm+ HE will break |
 | `/game_entity/volume/able/bullet` | block | []x771 [num]x6 | 493 | 777 | 0 | 문서 | 탄환과의 충돌에 반응하는지 여부. 기본 1. 0이면 탄이 그냥 지나간다 | Best Way 옛 공식 위키 wiki.bestway.com.ua의 web.archive.org 보존본 (В тылу врага 2 기준, 2026-10-12 확인) | required for AT-Grenades with cumaltive damage |
 | `/game_entity/volume/able/contact` | block | []x505 [num]x11 | 498 | 516 | 0 | 추정 | 접촉 판정 대상 (추정: able의 하위 플래그. 0이면 끔) | 파일 구조와 값에서 추론 |  |
