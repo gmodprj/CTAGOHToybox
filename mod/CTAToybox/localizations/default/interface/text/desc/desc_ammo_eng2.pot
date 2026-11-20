@@ -52,6 +52,14 @@ msgctxt "desc/stuff/bullet120_L11"
 msgid "Hesh Cap"
 msgstr ""
 
+msgctxt "desc/stuff/bullet105_m68"
+msgid "Hesh Cap"
+msgstr ""
+
+msgctxt "desc/stuff/bullet90_m41"
+msgid "Canister Cap"
+msgstr ""
+
 msgctxt "desc/ammo/bulleteng_105 hesh"
 msgid "105mm L31 [<c(ff9900)>HESH</c>]"
 msgstr ""

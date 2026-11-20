@@ -11,7 +11,7 @@
 	{calibre 380}
 
 	{spreading 12
-		{SpreadXYRatio 1.8}
+		{SpreadXYRatio 3}
 		{radiusFunction
 			0		0.02
 			0.2		0.1
@@ -22,7 +22,7 @@
 		}
 	}
 
-	{gravity 3}
+	{gravity 2}
 
 	{range 180 180}
 	("reload time" seconds(45))

@@ -1,5 +1,5 @@
 # source: vanilla interface/text/desc/desc_gear_rus2.pot
-# game-version: 1.0.6.7-aaa36ed4d
+# game-version: 1.0.6.9-fd5c5ce0f
 msgid ""
 msgstr ""
 "Project-Id-Version: Gates of Hell Soviet Gear 2\n"
@@ -552,6 +552,10 @@ msgstr "'강철 헬멧' Ssh-39"
 msgctxt "desc/stuff/sov_helm_ssh39_var1_gog"
 msgid "'Steel Helmet' SSh-39"
 msgstr "'강철 헬멧' Ssh-39"
+
+msgctxt "desc/stuff/sov_helm_ssh39_var1_tilt"
+msgid "'Steel Helmet' SSh-39"
+msgstr "'강철 헬멧' SSh-39"
 
 msgctxt "desc/stuff/sov_helm_ssh39_var1_ushanka_a"
 msgid "'Steel Helmet' SSh-39"

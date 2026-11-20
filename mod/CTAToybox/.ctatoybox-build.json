@@ -1,6 +1,6 @@
 {
   "project": "강화-독일",
-  "builtAt": "2026-10-18T05:34:11Z",
+  "builtAt": "2026-11-20T08:29:23Z",
   "files": [
     {
       "path": "resource/set/stuff/bazooka/20mm_fliegerfaust_ctb_ger.weapon",
@@ -200,7 +200,7 @@
     {
       "path": "resource/set/stuff/gun/128mm_kwk44_auto_ctb_ger",
       "layer": "mod_3732639687",
-      "edits": 2
+      "edits": 4
     },
     {
       "path": "resource/set/stuff/gun/128mm_kwk46_ctb_ger",
@@ -220,7 +220,7 @@
     {
       "path": "resource/set/stuff/gun/128mm_l40_auto_ctb_ger",
       "layer": "mod_3732639687",
-      "edits": 2
+      "edits": 3
     },
     {
       "path": "resource/set/stuff/gun/128mm_pak44_3_ctb_ger",
@@ -240,7 +240,7 @@
     {
       "path": "resource/set/stuff/gun/128oto_ctb_ger",
       "layer": "mod_3732639687",
-      "edits": 2
+      "edits": 3
     },
     {
       "path": "resource/set/stuff/gun/13mm_mg131_ctb_ger",
@@ -260,12 +260,12 @@
     {
       "path": "resource/set/stuff/gun/150mm_kwkl38_ctb_ger",
       "layer": "mod_3732639687",
-      "edits": 2
+      "edits": 3
     },
     {
       "path": "resource/set/stuff/gun/150mm_l11_ctb_ger",
       "layer": "vanilla",
-      "edits": 2
+      "edits": 3
     },
     {
       "path": "resource/set/stuff/gun/150mm_pak46_l52_ctb_ger",
@@ -673,6 +673,11 @@
       "edits": 2
     },
     {
+      "path": "resource/set/stuff/gun/75mm_stuk37_ctb_ger",
+      "layer": "vanilla",
+      "edits": 2
+    },
+    {
       "path": "resource/set/stuff/gun/75mm_stuk40_ctb_ger",
       "layer": "vanilla",
       "edits": 2
@@ -720,7 +725,7 @@
     {
       "path": "resource/set/stuff/gun/88mm_flak41_2_ctb_ger",
       "layer": "mod_3732639687",
-      "edits": 2
+      "edits": 3
     },
     {
       "path": "resource/set/stuff/gun/88mm_kwk36_ctb_ger",
@@ -735,7 +740,7 @@
     {
       "path": "resource/set/stuff/gun/88mm_kwk43_ctb_ger",
       "layer": "mod_3732639687",
-      "edits": 1
+      "edits": 2
     },
     {
       "path": "resource/set/stuff/gun/88mm_kwk43_2_ctb_ger",
@@ -745,7 +750,7 @@
     {
       "path": "resource/set/stuff/gun/88mm_kwk43_d_ctb_ger",
       "layer": "mod_3732639687",
-      "edits": 2
+      "edits": 3
     },
     {
       "path": "resource/set/stuff/gun/88mm_kwk43_l71_ctb_ger",
@@ -8655,17 +8660,17 @@
     {
       "path": "resource/entity/-vehicle/+germany/btr/wanze_ammo/wanze_ammo.def",
       "layer": "mod_2905667604",
-      "edits": 5
+      "edits": 6
     },
     {
       "path": "resource/entity/-vehicle/+germany/tank_heavy/bergepanther/bergepanther.def",
       "layer": "mod_2905667604",
-      "edits": 11
+      "edits": 12
     },
     {
       "path": "resource/entity/-vehicle/germany/btr/sdkfz6_cargo/sdkfz6_ammo.def",
       "layer": "vanilla",
-      "edits": 8
+      "edits": 9
     },
     {
       "path": "resource/entity/-vehicle/germany/btr/sdkfz6_cargo/sdkfz6_cargo.def",
@@ -8695,12 +8700,12 @@
     {
       "path": "resource/entity/-vehicle/germany/car/blitz3_6_art_ammo/blitz3_6_art_ammo.def",
       "layer": "vanilla",
-      "edits": 4
+      "edits": 5
     },
     {
       "path": "resource/entity/-vehicle/germany/car/blitz3_6_engineering/blitz3_6_engineering.def",
       "layer": "vanilla",
-      "edits": 11
+      "edits": 12
     },
     {
       "path": "resource/entity/-vehicle/+germany/btr/daf_39/daf_39.ext",
@@ -9110,7 +9115,7 @@
     {
       "path": "resource/entity/-vehicle/germany/car/kettenkrad_eng/kettenkrad_eng.def",
       "layer": "vanilla",
-      "edits": 6
+      "edits": 7
     },
     {
       "path": "resource/entity/-vehicle/germany/car/kubelwagen/kubelwagen.def",
@@ -9120,7 +9125,7 @@
     {
       "path": "resource/entity/-vehicle/germany/car/opel_maultier/opel_maultier.def",
       "layer": "vanilla",
-      "edits": 4
+      "edits": 5
     },
     {
       "path": "resource/entity/-vehicle/germany/car/schwimmwagen/schwimmwagen.def",
@@ -10530,7 +10535,7 @@
     {
       "path": "resource/entity/-vehicle/germany/car/blitz3_6_fuel/blitz3_6_fuel.def",
       "layer": "vanilla",
-      "edits": 3
+      "edits": 4
     },
     {
       "path": "resource/entity/-vehicle/germany/car/kfz70/kfz70.def",
@@ -10590,6 +10595,31 @@
     {
       "path": "resource/entity/-vehicle/+germany/cannons/mg42_lafette_high/high_mg_mg42.def",
       "layer": "mod_2905667604",
+      "edits": 1
+    },
+    {
+      "path": "resource/properties/resupply.inc",
+      "layer": "mod_3732639687",
+      "edits": 27
+    },
+    {
+      "path": "resource/entity/-vehicle/generic/special/inf_crate_ger/inf_crate_ger.def",
+      "layer": "vanilla",
+      "edits": 1
+    },
+    {
+      "path": "resource/entity/-vehicle/germany/trailer/ammo_trailer/ammo_trailer.def",
+      "layer": "vanilla",
+      "edits": 1
+    },
+    {
+      "path": "resource/entity/-vehicle/germany/trailer/infantry_cart_if8/infantry_cart_if8.def",
+      "layer": "vanilla",
+      "edits": 1
+    },
+    {
+      "path": "resource/entity/-vehicle/germany/trailer/sdah_57_1/sdah_57_1.def",
+      "layer": "vanilla",
       "edits": 1
     },
     {
@@ -11088,6 +11118,11 @@
       "edits": 0
     },
     {
+      "path": "resource/entity/-vehicle/+usa/tank_medium/m163/m163.def",
+      "layer": "mod_3732639687",
+      "edits": 0
+    },
+    {
       "path": "resource/entity/-vehicle/+usa/tank_medium/m2_medium/m2_medium.def",
       "layer": "mod_2905667604",
       "edits": 0
@@ -11100,6 +11135,31 @@
     {
       "path": "resource/entity/-vehicle/+usa/tank_medium/m2e1_medium_flamm/m2e1_medium_flamm.def",
       "layer": "mod_2905667604",
+      "edits": 0
+    },
+    {
+      "path": "resource/entity/-vehicle/+usa/tank_medium/m47_patton/m47_patton.def",
+      "layer": "mod_3732639687",
+      "edits": 0
+    },
+    {
+      "path": "resource/entity/-vehicle/+usa/tank_medium/m48/m48.def",
+      "layer": "mod_3732639687",
+      "edits": 0
+    },
+    {
+      "path": "resource/entity/-vehicle/+usa/tank_medium/m48a1/m48a1.def",
+      "layer": "mod_3732639687",
+      "edits": 0
+    },
+    {
+      "path": "resource/entity/-vehicle/+usa/tank_medium/m48a3/m48a3.def",
+      "layer": "mod_3732639687",
+      "edits": 0
+    },
+    {
+      "path": "resource/entity/-vehicle/+usa/tank_medium/m48a3/m48a3_acav.def",
+      "layer": "mod_3732639687",
       "edits": 0
     },
     {
@@ -11120,6 +11180,31 @@
     {
       "path": "resource/entity/-vehicle/+usa/tank_medium/m4a3_firefly/m4a3_firefly.def",
       "layer": "mod_2905667604",
+      "edits": 0
+    },
+    {
+      "path": "resource/entity/-vehicle/+usa/tank_medium/m50/m50.def",
+      "layer": "mod_3732639687",
+      "edits": 0
+    },
+    {
+      "path": "resource/entity/-vehicle/+usa/tank_medium/m50/m50_airlift.def",
+      "layer": "mod_3732639687",
+      "edits": 0
+    },
+    {
+      "path": "resource/entity/-vehicle/+usa/tank_medium/m56/m56.def",
+      "layer": "mod_3732639687",
+      "edits": 0
+    },
+    {
+      "path": "resource/entity/-vehicle/+usa/tank_medium/m56/m56_airlift.def",
+      "layer": "mod_3732639687",
+      "edits": 0
+    },
+    {
+      "path": "resource/entity/-vehicle/+usa/tank_medium/m60_patton/m60_patton.def",
+      "layer": "mod_3732639687",
       "edits": 0
     },
     {
@@ -11206,6 +11291,21 @@
       "path": "resource/entity/-vehicle/+ussr/tank_light/zut_37/zut_37.def",
       "layer": "mod_2905667604",
       "edits": 0
+    },
+    {
+      "path": "resource/entity/-vehicle/+ussr/tank_medium/obj430u/obj430u.def",
+      "layer": "mod_3732639687",
+      "edits": 0
+    },
+    {
+      "path": "resource/entity/-vehicle/+ussr/tank_medium/obj430u/obj430u_1965.def",
+      "layer": "mod_3732639687",
+      "edits": 0
+    },
+    {
+      "path": "resource/entity/-vehicle/+ussr/tank_medium/obj450/obj450.def",
+      "layer": "mod_3732639687",
+      "edits": 1
     },
     {
       "path": "resource/entity/-vehicle/+ussr/tank_medium/obj907/obj907.def",
@@ -12390,21 +12490,6 @@
     {
       "path": "resource/entity/-vehicle/germany/special/150mm_sw34/150mm_sw34_ger.def",
       "layer": "mod_2829744930",
-      "edits": 0
-    },
-    {
-      "path": "resource/entity/-vehicle/germany/trailer/ammo_trailer/ammo_trailer.def",
-      "layer": "vanilla",
-      "edits": 0
-    },
-    {
-      "path": "resource/entity/-vehicle/germany/trailer/infantry_cart_if8/infantry_cart_if8.def",
-      "layer": "vanilla",
-      "edits": 0
-    },
-    {
-      "path": "resource/entity/-vehicle/germany/trailer/sdah_57_1/sdah_57_1.def",
-      "layer": "vanilla",
       "edits": 0
     },
     {
@@ -13748,6 +13833,16 @@
       "edits": 1
     },
     {
+      "path": "resource/properties/tank__ctb_m163_d011362b.ext",
+      "layer": "vanilla",
+      "edits": 0
+    },
+    {
+      "path": "resource/properties/tank_unarmed__ctb_m163_d011362b.ext",
+      "layer": "mod_3732639687",
+      "edits": 1
+    },
+    {
       "path": "resource/properties/tank__ctb_m2_medium_7f686bea.ext",
       "layer": "vanilla",
       "edits": 0
@@ -13774,6 +13869,56 @@
     },
     {
       "path": "resource/properties/tank_unarmed__ctb_m2e1_medium_flamm_4bd36a5e.ext",
+      "layer": "mod_3732639687",
+      "edits": 1
+    },
+    {
+      "path": "resource/properties/tank__ctb_m47_patton_1e9d985d.ext",
+      "layer": "vanilla",
+      "edits": 0
+    },
+    {
+      "path": "resource/properties/tank_unarmed__ctb_m47_patton_1e9d985d.ext",
+      "layer": "mod_3732639687",
+      "edits": 1
+    },
+    {
+      "path": "resource/properties/tank__ctb_m48_2d397ee9.ext",
+      "layer": "vanilla",
+      "edits": 0
+    },
+    {
+      "path": "resource/properties/tank_unarmed__ctb_m48_2d397ee9.ext",
+      "layer": "mod_3732639687",
+      "edits": 1
+    },
+    {
+      "path": "resource/properties/tank__ctb_m48a1_13e9671d.ext",
+      "layer": "vanilla",
+      "edits": 0
+    },
+    {
+      "path": "resource/properties/tank_unarmed__ctb_m48a1_13e9671d.ext",
+      "layer": "mod_3732639687",
+      "edits": 1
+    },
+    {
+      "path": "resource/properties/tank__ctb_m48a3_138d5071.ext",
+      "layer": "vanilla",
+      "edits": 0
+    },
+    {
+      "path": "resource/properties/tank_unarmed__ctb_m48a3_138d5071.ext",
+      "layer": "mod_3732639687",
+      "edits": 1
+    },
+    {
+      "path": "resource/properties/tank__ctb_m48a3_acav_9c68c999.ext",
+      "layer": "vanilla",
+      "edits": 0
+    },
+    {
+      "path": "resource/properties/tank_unarmed__ctb_m48a3_acav_9c68c999.ext",
       "layer": "mod_3732639687",
       "edits": 1
     },
@@ -13814,6 +13959,56 @@
     },
     {
       "path": "resource/properties/tank_unarmed__ctb_m4a3_firefly_1d445ac3.ext",
+      "layer": "mod_3732639687",
+      "edits": 1
+    },
+    {
+      "path": "resource/properties/tank__ctb_m50_914468ec.ext",
+      "layer": "vanilla",
+      "edits": 0
+    },
+    {
+      "path": "resource/properties/tank_unarmed__ctb_m50_914468ec.ext",
+      "layer": "mod_3732639687",
+      "edits": 1
+    },
+    {
+      "path": "resource/properties/tank__ctb_m50_airlift_f78ae6a0.ext",
+      "layer": "vanilla",
+      "edits": 0
+    },
+    {
+      "path": "resource/properties/tank_unarmed__ctb_m50_airlift_f78ae6a0.ext",
+      "layer": "mod_3732639687",
+      "edits": 1
+    },
+    {
+      "path": "resource/properties/tank_assaultgun__ctb_m56_c9c69fb1.ext",
+      "layer": "vanilla",
+      "edits": 0
+    },
+    {
+      "path": "resource/properties/tank_unarmed__ctb_m56_c9c69fb1.ext",
+      "layer": "mod_3732639687",
+      "edits": 1
+    },
+    {
+      "path": "resource/properties/tank_assaultgun__ctb_m56_airlift_4f0463a9.ext",
+      "layer": "vanilla",
+      "edits": 0
+    },
+    {
+      "path": "resource/properties/tank_unarmed__ctb_m56_airlift_4f0463a9.ext",
+      "layer": "mod_3732639687",
+      "edits": 1
+    },
+    {
+      "path": "resource/properties/tank__ctb_m60_patton_0fca73cc.ext",
+      "layer": "vanilla",
+      "edits": 0
+    },
+    {
+      "path": "resource/properties/tank_unarmed__ctb_m60_patton_0fca73cc.ext",
       "layer": "mod_3732639687",
       "edits": 1
     },
@@ -13989,6 +14184,36 @@
     },
     {
       "path": "resource/properties/tank_unarmed__ctb_zut_37_d4c842c8.ext",
+      "layer": "mod_3732639687",
+      "edits": 1
+    },
+    {
+      "path": "resource/properties/tank__ctb_obj430u_aa5d3289.ext",
+      "layer": "vanilla",
+      "edits": 0
+    },
+    {
+      "path": "resource/properties/tank_unarmed__ctb_obj430u_aa5d3289.ext",
+      "layer": "mod_3732639687",
+      "edits": 1
+    },
+    {
+      "path": "resource/properties/tank__ctb_obj430u_1965_c8522db5.ext",
+      "layer": "vanilla",
+      "edits": 0
+    },
+    {
+      "path": "resource/properties/tank_unarmed__ctb_obj430u_1965_c8522db5.ext",
+      "layer": "mod_3732639687",
+      "edits": 1
+    },
+    {
+      "path": "resource/properties/tank__ctb_obj450_ba3c4002.ext",
+      "layer": "vanilla",
+      "edits": 0
+    },
+    {
+      "path": "resource/properties/tank_unarmed__ctb_obj450_ba3c4002.ext",
       "layer": "mod_3732639687",
       "edits": 1
     },

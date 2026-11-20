@@ -1,5 +1,5 @@
 # source: vanilla interface/text/mission/single/0x-skirmish/1941_07-fin_petrozavodsk.pot
-# game-version: 1.0.6.7-aaa36ed4d
+# game-version: 1.0.6.9-fd5c5ce0f
 msgid ""
 msgstr ""
 "Project-Id-Version: Gates of Hell (1941_07-fin_petrozavodsk)\n"

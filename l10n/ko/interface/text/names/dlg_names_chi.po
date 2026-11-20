@@ -1,5 +1,5 @@
 # source: mod_2905667604 interface/text/names/dlg_names_chi.pot
-# game-version: 1.0.6.7-aaa36ed4d
+# game-version: 1.0.6.9-fd5c5ce0f
 msgid ""
 msgstr ""
 "Project-Id-Version: Call to Arms - Gates of Hell: Ostfront (names for finland)\n"

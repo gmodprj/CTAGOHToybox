@@ -2636,6 +2636,17 @@
       "enabled": true
     },
     {
+      "unit": "entity/-vehicle/+usa/tank_medium/m163/m163.def",
+      "file": "properties/tank_unarmed.ext",
+      "path": "/sensor/visor/vision",
+      "occurrence": 2,
+      "arg": 0,
+      "old": "\"tank_around\"",
+      "new": "\"ctb_tank_medium\"",
+      "scope": "unit",
+      "enabled": true
+    },
+    {
       "unit": "entity/-vehicle/+usa/tank_medium/m2_medium/m2_medium.def",
       "file": "properties/tank_unarmed.ext",
       "path": "/sensor/visor/vision",
@@ -2659,6 +2670,61 @@
     },
     {
       "unit": "entity/-vehicle/+usa/tank_medium/m2e1_medium_flamm/m2e1_medium_flamm.def",
+      "file": "properties/tank_unarmed.ext",
+      "path": "/sensor/visor/vision",
+      "occurrence": 2,
+      "arg": 0,
+      "old": "\"tank_around\"",
+      "new": "\"ctb_tank_medium\"",
+      "scope": "unit",
+      "enabled": true
+    },
+    {
+      "unit": "entity/-vehicle/+usa/tank_medium/m47_patton/m47_patton.def",
+      "file": "properties/tank_unarmed.ext",
+      "path": "/sensor/visor/vision",
+      "occurrence": 2,
+      "arg": 0,
+      "old": "\"tank_around\"",
+      "new": "\"ctb_tank_medium\"",
+      "scope": "unit",
+      "enabled": true
+    },
+    {
+      "unit": "entity/-vehicle/+usa/tank_medium/m48/m48.def",
+      "file": "properties/tank_unarmed.ext",
+      "path": "/sensor/visor/vision",
+      "occurrence": 2,
+      "arg": 0,
+      "old": "\"tank_around\"",
+      "new": "\"ctb_tank_medium\"",
+      "scope": "unit",
+      "enabled": true
+    },
+    {
+      "unit": "entity/-vehicle/+usa/tank_medium/m48a1/m48a1.def",
+      "file": "properties/tank_unarmed.ext",
+      "path": "/sensor/visor/vision",
+      "occurrence": 2,
+      "arg": 0,
+      "old": "\"tank_around\"",
+      "new": "\"ctb_tank_medium\"",
+      "scope": "unit",
+      "enabled": true
+    },
+    {
+      "unit": "entity/-vehicle/+usa/tank_medium/m48a3/m48a3.def",
+      "file": "properties/tank_unarmed.ext",
+      "path": "/sensor/visor/vision",
+      "occurrence": 2,
+      "arg": 0,
+      "old": "\"tank_around\"",
+      "new": "\"ctb_tank_medium\"",
+      "scope": "unit",
+      "enabled": true
+    },
+    {
+      "unit": "entity/-vehicle/+usa/tank_medium/m48a3/m48a3_acav.def",
       "file": "properties/tank_unarmed.ext",
       "path": "/sensor/visor/vision",
       "occurrence": 2,
@@ -2703,6 +2769,61 @@
     },
     {
       "unit": "entity/-vehicle/+usa/tank_medium/m4a3_firefly/m4a3_firefly.def",
+      "file": "properties/tank_unarmed.ext",
+      "path": "/sensor/visor/vision",
+      "occurrence": 2,
+      "arg": 0,
+      "old": "\"tank_around\"",
+      "new": "\"ctb_tank_medium\"",
+      "scope": "unit",
+      "enabled": true
+    },
+    {
+      "unit": "entity/-vehicle/+usa/tank_medium/m50/m50.def",
+      "file": "properties/tank_unarmed.ext",
+      "path": "/sensor/visor/vision",
+      "occurrence": 2,
+      "arg": 0,
+      "old": "\"tank_around\"",
+      "new": "\"ctb_tank_medium\"",
+      "scope": "unit",
+      "enabled": true
+    },
+    {
+      "unit": "entity/-vehicle/+usa/tank_medium/m50/m50_airlift.def",
+      "file": "properties/tank_unarmed.ext",
+      "path": "/sensor/visor/vision",
+      "occurrence": 2,
+      "arg": 0,
+      "old": "\"tank_around\"",
+      "new": "\"ctb_tank_medium\"",
+      "scope": "unit",
+      "enabled": true
+    },
+    {
+      "unit": "entity/-vehicle/+usa/tank_medium/m56/m56.def",
+      "file": "properties/tank_unarmed.ext",
+      "path": "/sensor/visor/vision",
+      "occurrence": 2,
+      "arg": 0,
+      "old": "\"tank_around\"",
+      "new": "\"ctb_tank_medium\"",
+      "scope": "unit",
+      "enabled": true
+    },
+    {
+      "unit": "entity/-vehicle/+usa/tank_medium/m56/m56_airlift.def",
+      "file": "properties/tank_unarmed.ext",
+      "path": "/sensor/visor/vision",
+      "occurrence": 2,
+      "arg": 0,
+      "old": "\"tank_around\"",
+      "new": "\"ctb_tank_medium\"",
+      "scope": "unit",
+      "enabled": true
+    },
+    {
+      "unit": "entity/-vehicle/+usa/tank_medium/m60_patton/m60_patton.def",
       "file": "properties/tank_unarmed.ext",
       "path": "/sensor/visor/vision",
       "occurrence": 2,
@@ -2918,6 +3039,50 @@
       "arg": 0,
       "old": "\"tank_around\"",
       "new": "\"ctb_tank_light\"",
+      "scope": "unit",
+      "enabled": true
+    },
+    {
+      "unit": "entity/-vehicle/+ussr/tank_medium/obj430u/obj430u.def",
+      "file": "properties/tank_unarmed.ext",
+      "path": "/sensor/visor/vision",
+      "occurrence": 2,
+      "arg": 0,
+      "old": "\"tank_around\"",
+      "new": "\"ctb_tank_medium\"",
+      "scope": "unit",
+      "enabled": true
+    },
+    {
+      "unit": "entity/-vehicle/+ussr/tank_medium/obj430u/obj430u_1965.def",
+      "file": "properties/tank_unarmed.ext",
+      "path": "/sensor/visor/vision",
+      "occurrence": 2,
+      "arg": 0,
+      "old": "\"tank_around\"",
+      "new": "\"ctb_tank_medium\"",
+      "scope": "unit",
+      "enabled": true
+    },
+    {
+      "unit": "entity/-vehicle/+ussr/tank_medium/obj450/obj450.def",
+      "file": "properties/tank_unarmed.ext",
+      "path": "/sensor/visor/vision",
+      "occurrence": 2,
+      "arg": 0,
+      "old": "\"tank_around\"",
+      "new": "\"ctb_tank_medium\"",
+      "scope": "unit",
+      "enabled": true
+    },
+    {
+      "unit": "entity/-vehicle/+ussr/tank_medium/obj450/obj450.def",
+      "file": "entity/-vehicle/+ussr/tank_medium/obj450/obj450.def",
+      "path": "/game_entity/sensor/visor/vision",
+      "occurrence": 1,
+      "arg": 0,
+      "old": "\"tank_around\"",
+      "new": "\"ctb_tank_medium\"",
       "scope": "unit",
       "enabled": true
     },

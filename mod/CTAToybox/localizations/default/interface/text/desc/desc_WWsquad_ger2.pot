@@ -12,11 +12,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-msgctxt "desc/squad/squad_with2types_conquest"
+msgctxt "desc/squad/single_tankman_ace(ger)"
 msgid "에이스 전차 승무원"
 msgstr ""
 
-msgctxt "info/special/single_tankman_ace"
+msgctxt "info/special/single_tankman_ace(ger)"
 msgid "<c(c3baae)>정예 승무원</c>"
 msgstr ""
 

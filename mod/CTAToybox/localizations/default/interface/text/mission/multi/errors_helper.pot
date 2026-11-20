@@ -14,7 +14,7 @@ msgstr ""
 
 msgctxt "mission/multi/dcg_error01"
 msgid ""
-msgstr "(Warning) - dcg error 01: enemyid is above 4.(setting to 5)"
+msgstr "(Warning) - dcg error 01: enemyid is above 9.(setting to 10)"
 
 msgctxt "mission/multi/dcg_error02"
 msgid ""

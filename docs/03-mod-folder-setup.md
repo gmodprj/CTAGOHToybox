@@ -6,7 +6,7 @@
 
 | 항목 | 경로 |
 |---|---|
-| 모드 본체 | `E:\CTAToybox\mod\CTAToybox` |
+| 모드 본체 | `E:\Toybox's\CTAToybox\mod\CTAToybox` |
 | 게임이 보는 위치 | `E:\SteamLibrary\steamapps\common\Call to Arms - Gates of Hell\mods\CTAToybox` |
 
 게임이 보는 위치는 모드 본체를 가리키는 디렉터리 정션이다. 모드 파일을 이 저장소에서 git으로 관리하면서, 게임은 자기 `mods` 폴더 안에 있는 것으로 인식한다. 파일을 복사하지 않으므로 두 곳의 내용이 어긋날 일이 없다.
@@ -70,22 +70,22 @@ mod\CTAToybox\
 
 ```powershell
 $link = 'E:\SteamLibrary\steamapps\common\Call to Arms - Gates of Hell\mods\CTAToybox'
-New-Item -ItemType Junction -Path $link -Target 'E:\CTAToybox\mod\CTAToybox'
+New-Item -ItemType Junction -Path $link -Target "E:\Toybox's\CTAToybox\mod\CTAToybox"
 ```
 
-정션만 없애려면 다음을 쓴다. 대상 폴더(`E:\CTAToybox\mod\CTAToybox`)는 지워지지 않는다.
+정션만 없애려면 다음을 쓴다. 대상 폴더(`E:\Toybox's\CTAToybox\mod\CTAToybox`)는 지워지지 않는다.
 
 ```powershell
 (Get-Item -LiteralPath $link).Delete()
 ```
 
-저장소 폴더를 다른 곳으로 옮기면 정션이 끊어지므로 다시 만들어야 한다.
+저장소 폴더를 다른 곳으로 옮기면 정션이 끊어지므로 다시 만들어야 한다. 2026-11-12에 저장소를 `E:\CTAToybox`에서 `E:\Toybox's\CTAToybox`로 옮긴 뒤 정션 8개(`CTAToybox`와 스폰 모드 7개)가 끊겨 게임이 이 모드들을 읽지 못했다. 2026-11-20에 새 경로로 다시 만들었고, `editor/settings.json`의 `outputModDir`도 함께 고쳤다(그대로 빌드하면 옛 경로에 새 폴더가 생긴다).
 
 ## 확인 상태
 
 | 항목 | 상태 |
 |---|---|
-| 정션이 모드 본체를 가리킴 | 확인함 (`LinkType`이 `Junction`, `Target`이 `E:\CTAToybox\mod\CTAToybox`) |
+| 정션이 모드 본체를 가리킴 | 확인함 (`LinkType`이 `Junction`, `Target`이 `E:\Toybox's\CTAToybox\mod\CTAToybox`) |
 | 정션을 통해 `mod.info`가 읽힘 | 확인함 |
 | 게임의 모드 목록에 `CTAToybox`가 표시됨 | 확인함 (2026-10-11, 게임 1.0.6.7). 이름은 `CTATOYBOX`, 설명은 `mod.info`의 `desc` 그대로 나온다 |
 | 모드 목록에서 활성화됨 | 확인함 (2026-10-11). 버튼이 `DEACTIVATE`로 표시된다 |

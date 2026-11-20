@@ -9,7 +9,7 @@
 - **같은 엔진의 다른 게임 자료가 많다.** Call to Arms 위키(현대전, M1A2·T-62)와 Men of War: Assault Squad 2 자료는 문법은 비슷하지만 파일과 키가 다르다. 붙여 받은 문서의 `("armor_heavy" turret(...))`, `"speed2"`, `"damage_cumulative"`, `perks_generic.inc`, `crew.ext`, `desc.lng`는 모두 Call to Arms 위키(아래 S1·S2)에서 왔다. 지금 Gates of Hell에는 없다(08 문서).
 - **Steam 창작마당 글은 많은 수가 "삭제됨·게임과 호환되지 않음"으로 표시돼 있다.** 2026-10-14에 그 표시가 붙은 것: S4, S9, S10, S11, 시야 절의 V6~V10, R8, R11. 내용은 읽히지만 오래된 버전 기준일 수 있다.
 - **개발자 발언은 공식 공지(S8, V3, R12)와 CHANGE-LOG(V4)뿐이다.** 나머지는 모더 경험이다.
-- **게임 버전이 자주 파일을 바꾼다.** 2026-09-24 기준 최신은 V 1.067.0이다. 공지의 "Note to Modders"가 깨지는 파일을 알려 준다(아래 "패치가 바꾼 파일").
+- **게임 버전이 자주 파일을 바꾼다.** 2026-11-18 기준 최신은 V 1.069.0이다(2026-11-20 확인). 공지의 "Note to Modders"가 깨지는 파일을 알려 준다(아래 "패치가 바꾼 파일").
 
 ## 출처 (붙여 받은 문서의 출처 목록)
 
@@ -99,6 +99,9 @@
 | 2026-07-24 V1.064.0 (Update 69) | 로스터 `.set`의 지원 유닛 비용, 콘퀘스트 `.mi`의 `{functions (include "../dcg_functions.inc")}`, `interface/action/teleport.set` 추가, LUA `scene_query_readme.md`, `BotApi.Instance.CampaignFirstEnemyId` → `BotApi.Conquest.FirstEnemyId` 등 이름 변경 |
 | 2026-09-21 V1.066.0 (Update 70) | 콘퀘스트 AI 로스터 스키마 readme(`set/multiplayer/units/unit_roster_readme.md`, 바닐라에 있다), `BotApi.Instance.teamSize` → `ownTeamSize`, `entity.set` 안의 `vehicle/animation-defines.inc` 로드 순서 |
 | 2026-09-24 V1.067.0 (Hotfix 1) | 맵을 업그레이드하는 콘퀘스트 템플릿이 `mods` 아래 TEMPLATE 폴더에 있다 |
+| 2026-10-29 창작마당 공지 | 창작마당에 `.dll`·`.exe`·`.bat`(주입·로더) 같은 실행 코드가 든 모드를 더는 올릴 수 없다. 이 저장소의 모드는 텍스트·그림 파일뿐이라 해당 없다 |
+| 2026-11-17 V1.068.0 (Update 71) | 바닐라 텍스트 파일 122개가 바뀌고 1개가 생겼다(2026-11-20 pak 해시 대조, 공지에 "Note to Modders"는 없다). 모드에 걸리는 것: `properties/vehicle.ext`·`car.ext`에 `bodyback15`~`20`, StuG III A·B(`stug3a.def`, `stug3b.def`)의 주포 `75mm_kwk37` → `75mm_stuk37`, KV-2(`kv2_40.ext`) 최소 장갑 1 → 20, 공지의 "support guns" 궤적(`set/stuff/gun`의 포 파일 29개가 바뀜. 예: `105mm_stuh42`에 `{gravity 6.2}`, `150mm_sig33`에 `{parameters "he" {gravity 2.9}}`), 초·중기 인력(`set/multiplayer/games/presets/preset_early·mid.inc`, `laststand_early·mid.inc`의 `finish`, `frontlines_early·mid.inc`의 `start`·`finish`·`reinforcement`)을 후기와 같게, 시기 로스터 `units_*.set`의 비용, 컨퀘스트 Lua 5개, `pather.set`. `texture/common/_vehicle`의 T-34/76 `#winter`·`#winter2` 이름을 맞바꿈. `default.pak`(현지화)도 바뀌었다 |
+| 2026-11-18 V1.069.0 (Hotfix 1) | 튜토리얼 영상 충돌, 넘기와 탄 바꾸기의 같은 키, `euro_ruin04.ply`, M4A3E2 텍스처. 텍스트 파일은 `gamelogic.pak`, `-vehicle.pak`, `construction.pak`이 다시 받아졌다(위 122개에 들어 있다) |
 | 2026-06-25 Devblog #164 | 쓰지 않는 기본 에셋을 공식 창작마당 모드로 옮겨 모드가 의존 항목으로 쓰게 한다는 예고 |
 
 ## 추가 조사 (2026-10-16, 백로그 R1·R2)

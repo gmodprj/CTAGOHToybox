@@ -227,3 +227,67 @@ msgstr ""
 msgctxt "desc/ammo/hmgun2_usa.api"
 msgid ".50 구경 API M8 탄"
 msgstr ""
+
+msgctxt "desc/ammo/bullet90_m41 apbc"
+msgid "90mm T33 [<c(ff6a00)>APBC</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bullet90_m41 apcbche"
+msgid "90mm M82 [<c(ff6a00)>APCBC-HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bullet90_m41 apcr"
+msgid "90mm M332 [<c(48c445)>APCR</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bullet90_m41 canister"
+msgid "90mm M336 [<c(ffffff)>Canister</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bullet90_m41 he"
+msgid "90mm M71 [<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bullet90_m41 heat"
+msgid "90mm M348 [<c(c9a6ff)>HEAT</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bullet90_m41 sm"
+msgid "90mm M313 [<c(ffffff)>Smoke</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bullet106_m40 he"
+msgid "106mm M346A1 [<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bullet106_m40 heat"
+msgid "106mm M344A1 [<c(c9a6ff)>HEAT</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bullet105_m68 apds"
+msgid "105mm M392A2 [<c(48c445)>APDS</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bullet105_m68 heat"
+msgid "105mm M456 [<c(c9a6ff)>HEAT</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bullet105_m68 hesh"
+msgid "105mm M393A2 [<c(ff9900)>HESH</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_20_auto ap"
+msgid "20mm M53 [<c(ff6a00)>AP</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_20_auto he"
+msgid "20mm M56 [<c(ff1200)>HE</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_20_auto apcr"
+msgid "20mm M53 [<c(48c445)>APCR</c>]"
+msgstr ""
+
+msgctxt "desc/ammo/bulletusa_20_auto apds"
+msgid "20mm Mk 149 [<c(48c445)>APDS</c>]"
+msgstr ""

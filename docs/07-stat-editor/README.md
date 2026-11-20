@@ -15,6 +15,7 @@
 | 원본 파일(바닐라와 켜 둔 모드)의 값 하나를 바꾸는 수정을 프로젝트 파일에 담기 | 매크로 본문 안의 값을 "이 유닛만" 고치기 |
 | include로 공유된 값을 "이 유닛만" 고치기 (`add --scope unit`) | 키나 블록을 빼기 |
 | 블록 끝에 줄 하나 더하기, 아이템·무기 파일을 새 이름으로 사본 만들기 (`add --kind add-line`, `add --kind file-copy`, 값 고치기 창) | |
+| 매크로 정의를 새 이름으로 복제하고(`add --kind define-copy --file <파일> --path '/(define "이름")' --new '"새 이름"'`, 파일 끝에 붙는다) 그 안의 값을 `/(define "새 이름")/…` 경로로 고치기, 인자 있는 매크로 호출의 이름 바꾸기(`add --kind macro-name`, 인자는 그대로). 앱 수정 목록에 "매크로 복제"로 보인다 | 앱 값 고치기 창에서 매크로 복제를 새로 만드는 단추는 없다(명령줄과 `faction-preset`만) |
 | 프로젝트를 빌드해 `mod/CTAToybox/resource`에 써넣기 | |
 | 게임이나 모드가 갱신돼 원래 값이 달라진 수정을 알아채기 | |
 
@@ -26,7 +27,7 @@
 
 ```powershell
 $profile = Get-ChildItem "$env:LOCALAPPDATA\digitalmindsoft\gates of hell\profiles" -Directory | Where-Object Name -ne 'offline' | Select-Object -First 1
-dotnet run --project editor/CtaToybox.Cli -c Release -- init --game "E:\SteamLibrary\steamapps\common\Call to Arms - Gates of Hell" --workshop "E:\SteamLibrary\steamapps\workshop\content\400750" --options "$($profile.FullName)\options.set" --out "E:\CTAToybox\mod\CTAToybox"
+dotnet run --project editor/CtaToybox.Cli -c Release -- init --game "E:\SteamLibrary\steamapps\common\Call to Arms - Gates of Hell" --workshop "E:\SteamLibrary\steamapps\workshop\content\400750" --options "$($profile.FullName)\options.set" --out "E:\Toybox's\CTAToybox\mod\CTAToybox"
 ```
 
 `editor/settings.json`이 생긴다. 이 파일은 git에 넣지 않는다.
@@ -185,6 +186,9 @@ ctatoybox rule reapply|enable|disable|remove --project editor/projects/my-tweaks
 - 유닛 강화(그 군대 유닛만): 인벤토리 개수 ×2(탄약 파일 `.ammo`로 풀리는 아이템은 ×5, 개수와 ± 편차를 같이), 재장전 시간 ×0.5, 보병 체력 ×2, 장갑 차량 ×2·경전차 ×2·중형 ×2.5·중전차 ×3·초중전차 ×5, 속도 ×1.5, 연료와 항속 ×10. 배수는 인자로 바꾼다.
 - 인벤토리·장갑·속도·연료는 일괄 규칙(군대 거르기)으로 들어가 앱의 "일괄 규칙"에서 보고 다시 적용할 수 있다. 항속(range)은 연료 규칙이 고친 mobility 호출마다 직접 고친다.
 - 재장전: 무기는 여러 군대가 이름으로 같이 부르므로, 그 군대 유닛이 부르는 무기마다 파일 사본(`<이름>_ctb_<군대>`)을 만들어 장전 시간을 고치고 그 군대 유닛의 이름 값만 사본 이름으로 바꾼다. 원형·매크로에서 오는 장전 시간은 사본에 `{rechargeTime N}` 줄을 더한다.
+- 클립식 포(2026-10-21, 설계 [../superpowers/specs/2026-10-21-faction-boost-clip-supply-design.md](../superpowers/specs/2026-10-21-faction-boost-clip-supply-design.md)): `set/stuff/gun` 사본 가운데 탄창 2발 이상이고 탄창 안 발 사이(`recoveryTime`, "fire rate"면 60/rpm)가 1초 이상인 것(`--clip-min-gap`)은 발 사이도 같은 배수(`--clip-gap`, 기본 `--reload`)로 줄이고, 발 사이와 탄창 장전을 소수 셋째 자리까지 남겨 원래 짧은/긴 비율을 지킨다. 발 사이 줄이 여럿이면 모두, "fire rate"면 rpm을 나누고, 원형에서 오면 사본에 `{recoveryTime N}`을 더한다. 기관총·기관포·로켓의 연사 간격은 그대로다. 지금 판 독일군은 5개(`128mm_kwk44_auto`, `128mm_l40_auto`, `128oto`, `88mm_flak41_2`, `88mm_kwk43_d`).
+- 보급(2026-10-21, 같은 설계): 보급 값은 모든 군대가 같이 쓰는 `properties/resupply.inc`의 매크로 본문에 있다. 그 군대 보급 유닛이 유닛 파일에서 부르는 보급 매크로마다 복제본(`<이름>_ctb_<군대>`, 매크로 복제 `define-copy`)을 같은 파일 끝에 만들고, 복제본의 반경을 ×3(`--supply-radius`), 총량 `limit`을 50000(`--supply-limit`. 게임·모드 파일에 쓰인 가장 큰 값. 파일 주석은 "0이면 무제한"이지만 0으로 하면 보급이 동작하지 않아(사용자 게임 확인 2026-10-21) 0은 막는다), 재생 주기를 10초에 다 차는 0.0002초(`--supply-refill 10`, 컨퀘스트에서 재생을 끄는 조건 줄 포함. 1초보다 짧은 주기는 미확인)로 바꾼 뒤, 그 유닛의 호출 이름만 복제본으로 바꾼다(인자는 그대로). 보급 건물(깃발 탄약점, 탄약 진지 등)과 다른 군대 보급 차량은 원래 매크로를 그대로 쓴다. include 파일 안에서 부르는 유닛은 바꾸지 않고 건너뜀으로 알린다.
+- 수정 내용 문서: 프로젝트를 만들 때 `docs/14-faction-boost/<군대>.md`(`--doc`로 바꾼다)에 배수, 항목별 수정 수, 일괄 규칙, 클립식 포 표, 보급 표, 건너뛴 이유, 한계를 쓴다. 생성물이라 손으로 고치지 않는다.
 - 보병 체력: perks의 `"health"` 값 2배를 그 보병 파일의 perks 블록 끝에 `{"health" "N%"}`로 더한다. 더한 줄과 사본 쪽 줄이 매크로·원형 값을 이기는지는 게임 안 확인을 하지 않아 미확인이다.
 - 초중전차는 `editor/presets/super-heavy.txt`(손으로 고친다)의 유닛 폴더다. 파생형(대공·자주포·구축전차)도 넣었다.
 - 컨퀘스트(플레이어 몫만, 모든 군대 프로젝트에 같이): 시작 자원 MP·AP 99999, SP·RP 999, 단계 I~V 한도와 예비 병력 한도 9999, 승패 보상 MP·AP `"1:99999"`, SP·RP 999. AI 몫(`Bots`)은 그대로다.
@@ -212,7 +216,7 @@ Spawn Menu of MACE를 대체하는 모드 `mod/CTAToyboxSpawn`(이름 `CTAToybox
 - 화면: `SceneGameView.xml`의 세 패널(멀티·싱글·컨퀘스트) 모두에 증원 창을 조건 없이 둔다. 증원 창 단추는 바닐라 세로 목록 그대로이고, `GameUnitReinforcementView.xml`의 `visibleElements`(한 번에 보이는 단추 수)만 7에서 10으로 바꾼다(`--visible N`, 0이면 바닐라). 단추 그림 72px + 간격 2라 10칸과 스크롤 단추가 772px다. 25는 1080 화면을 넘어 아래 단추를 누를 수 없었다(2026-10-18 사용자). 게임이 이 칸에 읽는 속성은 `UpButtonResource`·`DownButtonResource`·`Gap`·`ButtonHeight`·`VisibleElements`뿐이라(실행 파일 문자열, 2026-10-18) 방향은 바꿀 수 없다. `--grid N`은 `GameUnitReinforcementView.xml`의 `StepScrollPane id="unit_types_container"`를 `GridPanel`로 바꾸는데, 2026-10-18 이 판으로 캠페인을 열자 판 화면을 만들다 `EXCEPTION_ACCESS_VIOLATION`(`ld:create` `scenegameview.xml`)으로 꺼졌다. 가로로 펼치는 다른 방법은 아직 없다.
 - 다시 만들 때는 지난 생성물(`.ctatoybox-spawn.json`)만 지우고 바꾼다. 게임 패치·모드 갱신·스탯 출력 모드 재빌드 뒤에는 다시 만든다.
 - git: 맵 사본(약 210MB)은 넣지 않는다(`.gitignore`). 메뉴·견본·글자·화면·로스터·단추 그림은 넣는다. 지난 생성물을 지우면 빈 폴더도 지운다.
-- 게임에 연결: 게임 `mods` 폴더에 정션을 만들고(`New-Item -ItemType Junction -Path "<게임>\mods\CTAToyboxSpawn" -Target "E:\CTAToybox\mod\CTAToyboxSpawn"`), 모드 목록에서 모든 모드 뒤에 켜고 Spawn Menu of MACE는 끈다. 국가 모드(`CTAToyboxSpawn_<국가>`)도 같은 방법으로 정션을 만들어 CTAToybox Spawn 뒤에 켠다. 순서는 MACE → MACE Wunderwaffe Ultimate Fusion → Auto Medic → CTAToybox → CTAToybox Spawn → 국가 모드들이어야 한다(Fusion이 MACE보다 앞이면 MACE의 옛 `properties/armor.ext`·`unit_research_*.set`·컨퀘스트 로스터가 Fusion 판을 덮어 Fusion 정의가 풀리지 않고 컨퀘스트 연구 목록에서 Fusion 유닛이 빠진다. 2026-10-18 파일 대조).
+- 게임에 연결: 게임 `mods` 폴더에 정션을 만들고(`New-Item -ItemType Junction -Path "<게임>\mods\CTAToyboxSpawn" -Target "E:\Toybox's\CTAToybox\mod\CTAToyboxSpawn"`), 모드 목록에서 모든 모드 뒤에 켜고 Spawn Menu of MACE는 끈다. 국가 모드(`CTAToyboxSpawn_<국가>`)도 같은 방법으로 정션을 만들어 CTAToybox Spawn 뒤에 켠다. 순서는 MACE → MACE Wunderwaffe Ultimate Fusion → Auto Medic → CTAToybox → CTAToybox Spawn → 국가 모드들이어야 한다(Fusion이 MACE보다 앞이면 MACE의 옛 `properties/armor.ext`·`unit_research_*.set`·컨퀘스트 로스터가 Fusion 판을 덮어 Fusion 정의가 풀리지 않고 컨퀘스트 연구 목록에서 Fusion 유닛이 빠진다. 2026-10-18 파일 대조).
 - 미확인(게임 안에서만 알 수 있다): 견본 파일의 트리거가 `ctb_has_<국가>`를 켜는지(따로 include한 `{Helpers}`가 합쳐지는지. 안 되면 `--all-nations`), `--roster`일 때: 새 종류 단추를 게임이 받는지(실행 파일이 단추 그림 이름을 `button_%1%_%2%`(순서_국가)로 만든다. 안 되면 `--basic-buttons`), 봇도 비용 0 로스터로 사는지(사람만 0으로 하는 방법은 못 찾음), 증원 창이 멀티·컨퀘스트에서 보이는지와 사라지는 문제가 고쳐지는지, `{type side}`가 멀티에서 국가를 주는지, 봇이 비용 0 로스터를 쓰는지, 견본 id(0xC100~)가 맵의 id와 부딪히는지(Spawn Menu도 같은 범위를 쓴다).
 
 ```
