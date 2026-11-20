@@ -1,5 +1,5 @@
 # source: mod_2905667604 interface/text/desc/desc_squads_sov_mace.pot
-# game-version: 1.0.6.7-aaa36ed4d
+# game-version: 1.0.6.9-fd5c5ce0f
 msgid ""
 msgstr ""
 "Project-Id-Version: Product Name\n"

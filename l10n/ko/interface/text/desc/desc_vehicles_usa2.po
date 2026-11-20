@@ -1,5 +1,5 @@
 # source: mod_3732639687 interface/text/desc/desc_vehicles_usa2.pot
-# game-version: 1.0.6.7-aaa36ed4d
+# game-version: 1.0.6.9-fd5c5ce0f
 msgid ""
 msgstr ""
 "Project-Id-Version: Product Name (desc_vehicles_usa)\n"
@@ -352,3 +352,47 @@ msgstr "Centurion Action X"
 msgctxt "desc/entity/black_prince"
 msgid "Black Prince"
 msgstr "Black Prince"
+
+msgctxt "desc/entity/m47_patton"
+msgid "M47 Patton"
+msgstr "M47 Patton"
+
+msgctxt "desc/entity/m48"
+msgid "M48 Patton"
+msgstr "M48 Patton"
+
+msgctxt "desc/entity/m48a1"
+msgid "M48A1 Patton"
+msgstr "M48A1 Patton"
+
+msgctxt "desc/entity/m48a3"
+msgid "M48A3 Patton"
+msgstr "M48A3 Patton"
+
+msgctxt "desc/entity/m48a3_acav"
+msgid "M48A3 ACAV"
+msgstr "M48A3 ACAV"
+
+msgctxt "desc/entity/m60_patton"
+msgid "M60 Patton"
+msgstr "M60 Patton"
+
+msgctxt "desc/entity/m50"
+msgid "M50 Ontos"
+msgstr "M50 Ontos"
+
+msgctxt "desc/entity/m50_airlift"
+msgid "M50 Ontos (Airlift)"
+msgstr "M50 Ontos (Airlift)"
+
+msgctxt "desc/entity/m56"
+msgid "M56 Scorpion"
+msgstr "M56 Scorpion"
+
+msgctxt "desc/entity/m56_airlift"
+msgid "M56 Scorpion (Airlift)"
+msgstr "M56 Scorpion (Airlift)"
+
+msgctxt "desc/entity/m163"
+msgid "M163 VADS"
+msgstr "M163 VADS"

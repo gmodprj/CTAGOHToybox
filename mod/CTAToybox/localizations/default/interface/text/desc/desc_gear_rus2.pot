@@ -552,6 +552,10 @@ msgctxt "desc/stuff/sov_helm_ssh39_var1_gog"
 msgid "'강철 헬멧' Ssh-39"
 msgstr ""
 
+msgctxt "desc/stuff/sov_helm_ssh39_var1_tilt"
+msgid "'강철 헬멧' SSh-39"
+msgstr ""
+
 msgctxt "desc/stuff/sov_helm_ssh39_var1_ushanka_a"
 msgid "'강철 헬멧' Ssh-39"
 msgstr ""

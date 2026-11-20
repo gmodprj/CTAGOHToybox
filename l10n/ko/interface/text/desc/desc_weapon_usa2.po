@@ -1,5 +1,5 @@
 # source: mod_3732639687 interface/text/desc/desc_weapon_usa2.pot
-# game-version: 1.0.6.7-aaa36ed4d
+# game-version: 1.0.6.9-fd5c5ce0f
 msgid ""
 msgstr ""
 "Project-Id-Version: Gates of Hell USA weaponry\n"
@@ -344,3 +344,27 @@ msgstr "12.7mm Browning M2 x4"
 msgctxt "desc/weapon/105mm_L7A2"
 msgid "105mm L7A2"
 msgstr "105mm L7A2"
+
+msgctxt "desc/weapon/90mm_m36"
+msgid "90mm M36"
+msgstr "90mm M36"
+
+msgctxt "desc/weapon/90mm_m41"
+msgid "90mm M41"
+msgstr "90mm M41"
+
+msgctxt "desc/weapon/90mm_m54"
+msgid "90mm M54"
+msgstr "90mm M54"
+
+msgctxt "desc/weapon/20mm_m168"
+msgid "20mm M168 Vulcan"
+msgstr "20mm M168 Vulcan"
+
+msgctxt "desc/weapon/105mm_m68"
+msgid "105mm M68"
+msgstr "105mm M68"
+
+msgctxt "desc/weapon/106mm_m40_x6"
+msgid "106mm M40 Recoilless Rifle x6"
+msgstr "106mm M40 무반동포 x6"

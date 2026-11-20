@@ -1,5 +1,5 @@
 # source: mod_3732639687 interface/text/desc/desc_WWsquad_ger2.pot
-# game-version: 1.0.6.7-aaa36ed4d
+# game-version: 1.0.6.9-fd5c5ce0f
 msgid ""
 msgstr ""
 "Project-Id-Version: Gates of Hell Generic and Russian ammo\n"
@@ -13,11 +13,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-msgctxt "desc/squad/squad_with2types_conquest"
+msgctxt "desc/squad/single_tankman_ace(ger)"
 msgid "Ace Tank Crew"
 msgstr "에이스 전차 승무원"
 
-msgctxt "info/special/single_tankman_ace"
+msgctxt "info/special/single_tankman_ace(ger)"
 msgid "<c(c3baae)>Elite Crew</c>"
 msgstr "<c(c3baae)>정예 승무원</c>"
 

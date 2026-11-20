@@ -1,5 +1,5 @@
 # source: vanilla interface/text/mission/single/05-eng/1940_05_20_arras_skirmish.pot
-# game-version: 1.0.6.7-aaa36ed4d
+# game-version: 1.0.6.9-fd5c5ce0f
 msgid ""
 msgstr ""
 "Project-Id-Version: Gates of Hell (1940_05_20_arras_skirmish)\n"
