@@ -1,7 +1,7 @@
 {game_entity
 	(include "/properties/tank__ctb_skink_172e503d.ext")
 	(include "/properties/selection/vehicle.inc" scale(1.2))
-	{props "medium" "vision_lev04" "shield"}
+	{props "medium" "vision_lev04" "shield" "flak_mace" "detect_cannon_aa" "sq_autocannon"}
 	{Extension "skink.mdl"}
 	(include "skink.ext")
 	{PatherId "m4a3"}

@@ -26,4 +26,5 @@
 	("accuracy_spg" r1(1.00) range_ap(170) range_he(170) range_heat(170))
 
 	{aimingTolerance 1.5}								;// Measure in degrees of IK error when AI is allowed to shoot
+	{gravity 1.8}
 }

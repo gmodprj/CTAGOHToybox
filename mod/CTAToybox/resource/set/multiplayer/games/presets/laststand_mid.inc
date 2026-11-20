@@ -107,7 +107,7 @@
 		{unitMode "mid"}
 		{specMode "all_normal"}
 		{apply "only_roster_mid"}
-		("standard_all"			start_a(25000) finish_a(82500) start_b(500) finish_b(3600) doctrine(200) cp_a(0:4000,900:5000,1800:6000) cp_b(0:120,900:160,1800:220))
+		("standard_all"			start_a(25000) finish_a(90000) start_b(500) finish_b(4500) doctrine(200) cp_a(0:4000,900:5000,1800:6000) cp_b(0:120,900:160,1800:220))
 		{ranked}
 	}
 ;------------------------------------------------------------------------------------------------------------
@@ -119,28 +119,28 @@
 		{unitMode "mid"}
 		{specMode "cp_60"}
 		{apply "only_roster_mid"}
-		("custom_all"			start_a(25000) finish_a(82500) start_b(500) finish_b(3600) doctrine(200) cp_a(0:3000,900:4000,1800:5000) cp_b(0:120,900:160,1800:220))
+		("custom_all"			start_a(25000) finish_a(90000) start_b(500) finish_b(4500) doctrine(200) cp_a(0:3000,900:4000,1800:5000) cp_b(0:120,900:160,1800:220))
 	}
 	{"c:mid_custom_80"
 		{gameMode "custom"}
 		{unitMode "mid"}
 		{specMode "cp_80"}
 		{apply "only_roster_mid"}
-		("custom_all"			start_a(27500) finish_a(110000) start_b(550) finish_b(4800) doctrine(200) cp_a(0:4000,900:5000,1800:6000) cp_b(0:140,900:180,1800:240))
+		("custom_all"			start_a(27500) finish_a(120000) start_b(550) finish_b(6000) doctrine(200) cp_a(0:4000,900:5000,1800:6000) cp_b(0:140,900:180,1800:240))
 	}
 	{"c:mid_custom_100"
 		{gameMode "custom"}
 		{unitMode "mid"}
 		{specMode "cp_100"}
 		{apply "only_roster_mid"}
-		("custom_all"			start_a(30000) finish_a(137500) start_b(600) finish_b(5000) doctrine(200) cp_a(0:5000,900:6000,1800:7000) cp_b(0:160,900:200,1800:260))
+		("custom_all"			start_a(30000) finish_a(150000) start_b(600) finish_b(7500) doctrine(200) cp_a(0:5000,900:6000,1800:7000) cp_b(0:160,900:200,1800:260))
 	}
 	{"c:mid_custom_120"
 		{gameMode "custom"}
 		{unitMode "mid"}
 		{specMode "cp_120"}
 		{apply "only_roster_mid"}
-		("custom_all"			start_a(32500) finish_a(165000) start_b(650) finish_b(7200) doctrine(200) cp_a(0:6000,900:7000,1800:8000) cp_b(0:180,900:220,1800:280))
+		("custom_all"			start_a(32500) finish_a(180000) start_b(650) finish_b(9000) doctrine(200) cp_a(0:6000,900:7000,1800:8000) cp_b(0:180,900:220,1800:280))
 	}
 
 ;------------------------------------------------------------------------------------------------------------

@@ -25,4 +25,5 @@
 	("penetration_medium" shell(heat) range(190) a(115) b(115) c(115) d(115) e(115))
 
 	("accuracy_spg" r1(1.00) range_ap(180) range_he(190) range_heat(190))
+	{gravity 6.2}
 }

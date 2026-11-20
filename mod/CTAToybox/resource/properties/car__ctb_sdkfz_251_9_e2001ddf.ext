@@ -177,6 +177,9 @@ actor
 	{volume "bodyback19"	; Truck Bed
 		{thickness %body}
 	}
+	{volume "bodyback20"	; Truck Bed
+		{thickness %body}
+	}
 	{volume "engine"		; Engine
 		{thickness %engine}
 	}
